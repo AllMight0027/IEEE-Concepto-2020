@@ -1,11 +1,17 @@
 .head {
-  text-align: center;
+    text-align: center;
 }
 .logo {
-  height: 80vh;
+    height: 80vh;
 }
 
 .btn {
-  font-size: 30px;
-  margin-top: 5rem;
+    font-size: 30px;
+    margin-top: 5rem;
+}
+h1 {
+    color: whitesmoke;
+}
+.speakers {
+    margin: 5% 0%;
 }
