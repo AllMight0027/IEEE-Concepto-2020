@@ -21,16 +21,18 @@ const renderTime = (dimension, time) => {
   );
 };
 
-const getTimeSeconds = (time) => (minuteSeconds - time / 1000) | 0;
-const getTimeMinutes = (time) => ((time % hourSeconds) / minuteSeconds) | 0;
-const getTimeHours = (time) => ((time % daySeconds) / hourSeconds) | 0;
-const getTimeDays = (time) => (time / daySeconds) | 0;
+const getTimeSeconds = (time) => parseInt(minuteSeconds - time);
+const getTimeMinutes = (time) => parseInt((time % hourSeconds) / minuteSeconds);
+const getTimeHours = (time) => parseInt((time % daySeconds) / hourSeconds);
+const getTimeDays = (time) => parseInt(time / daySeconds);
 
-export default function Timer() {
-  const startTime = Date.now() / 1000; // use UNIX timestamp in seconds
-  const endTime = startTime + 3476461; // use UNIX timestamp in seconds
+export default function App() {
+  const stratTime = Date.now() / 1000; // use UNIX timestamp in seconds
 
-  const remainingTime = endTime - startTime;
+  // REPLACE THIS WHOLE VALUE WITH THE TIMESTAMP OF THE DATE IN SECONDS
+  const endTime = 1600540200; // Sunday, 20-09-2020-00:00 AM
+
+  const remainingTime = endTime - stratTime;
   const days = Math.ceil(remainingTime / daySeconds);
   const daysDuration = days * daySeconds;
 
@@ -42,9 +44,7 @@ export default function Timer() {
         duration={daysDuration}
         initialRemainingTime={remainingTime}
       >
-        {({ elapsedTime }) =>
-          renderTime("Days", getTimeDays(daysDuration - elapsedTime / 1000))
-        }
+        {({ remainingTime }) => renderTime("days", getTimeDays(remainingTime))}
       </CountdownCircleTimer>
       <div className="mr-5"></div>
       <CountdownCircleTimer
@@ -56,12 +56,11 @@ export default function Timer() {
           remainingTime - totalElapsedTime > hourSeconds,
         ]}
       >
-        {({ elapsedTime }) =>
-          renderTime("Hours", getTimeHours(daySeconds - elapsedTime / 1000))
+        {({ remainingTime }) =>
+          renderTime("hours", getTimeHours(remainingTime))
         }
       </CountdownCircleTimer>
       <div className="mr-5"></div>
-
       <CountdownCircleTimer
         {...timerProps}
         colors={[["#EF798A"]]}
@@ -71,15 +70,11 @@ export default function Timer() {
           remainingTime - totalElapsedTime > minuteSeconds,
         ]}
       >
-        {({ elapsedTime }) =>
-          renderTime(
-            "Minutes",
-            getTimeMinutes(hourSeconds - elapsedTime / 1000)
-          )
+        {({ remainingTime }) =>
+          renderTime("minutes", getTimeMinutes(remainingTime))
         }
       </CountdownCircleTimer>
       <div className="mr-5"></div>
-
       <CountdownCircleTimer
         {...timerProps}
         colors={[["#218380"]]}
@@ -90,7 +85,7 @@ export default function Timer() {
         ]}
       >
         {({ elapsedTime }) =>
-          renderTime("Seconds", getTimeSeconds(elapsedTime))
+          renderTime("seconds", getTimeSeconds(elapsedTime))
         }
       </CountdownCircleTimer>
     </div>
