@@ -3,6 +3,7 @@ import "./Home.css";
 import logo from "./Concepto_White.svg";
 import Timer from "../timer/Timer";
 import Speakers from "../Speakers/Speakers";
+import Footer from "../Footer/Footer";
 
 const Home = () => {
     return (
@@ -17,6 +18,7 @@ const Home = () => {
                 <h1>Our Speakers</h1>
                 <Speakers />
             </div>
+            <Footer />
         </div>
     );
 };
