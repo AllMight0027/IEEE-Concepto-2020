@@ -38,7 +38,7 @@ export default function App() {
 
   return (
     <div className="timer row">
-      <div className="col-lg-3 col-sm-12">
+      <div className="col-lg-3 col-12 d-flex justify-content-center align-items-center py-2">
         <CountdownCircleTimer
           {...timerProps}
           colors={[["#7E2E84"]]}
@@ -50,7 +50,7 @@ export default function App() {
           }
         </CountdownCircleTimer>
       </div>
-      <div className="col-lg-3 col-sm-12 ">
+      <div className="col-lg-3 col-12 d-flex justify-content-center align-items-center py-2 ">
         <CountdownCircleTimer
           {...timerProps}
           colors={[["#D14081"]]}
@@ -65,7 +65,7 @@ export default function App() {
           }
         </CountdownCircleTimer>
       </div>
-      <div className="col-lg-3 col-sm-12 ">
+      <div className="col-lg-3 col-12 d-flex justify-content-center align-items-center py-2 ">
         <CountdownCircleTimer
           {...timerProps}
           colors={[["#EF798A"]]}
@@ -80,7 +80,7 @@ export default function App() {
           }
         </CountdownCircleTimer>
       </div>
-      <div className="col-lg-3 col-sm-12">
+      <div className="col-lg-3 col-12 d-flex justify-content-center align-items-center py-2">
         <CountdownCircleTimer
           {...timerProps}
           colors={[["#218380"]]}

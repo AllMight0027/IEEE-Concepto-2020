@@ -1,3 +1,9 @@
-.page-footer {
+footer{
     background-color: #0b0b0b !important;
+}
+.footer{
+    height: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

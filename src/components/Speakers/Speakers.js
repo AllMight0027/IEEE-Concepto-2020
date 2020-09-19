@@ -9,7 +9,7 @@ const fn = function () {
 function Speakers() {
     return (
         <div>
-            <Coverflow
+            {/* <Coverflow
                 width="960"
                 height="500"
                 classes={{ background: "rgb(233, 23, 23)" }}
@@ -45,7 +45,7 @@ function Speakers() {
                     alt="title or description"
                     data-action="http://andyyou.github.io/react-coverflow/"
                 />
-            </Coverflow>
+            </Coverflow> */}
         </div>
     );
 }

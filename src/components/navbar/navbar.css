@@ -1,0 +1,33 @@
+.navbar-brand{
+    width: 20%;
+}
+.navbar-brand img{
+    width: 100%;
+}
+.navbar{
+    color: white;
+}
+.nav-link{
+    margin-right: 15px;
+}
+.nav-item.active .nav-link{
+    border-bottom: 2px solid white;
+}
+.passes .nav-link{
+    border: 2px solid white;
+}
+.passes:hover .nav-link,.passes:hover a{
+    color: black!important;
+    background-color: white;
+}
+
+.scrolled{
+    background-color: #181818;
+    box-shadow: 0px 2px 8px 7px rgba(255, 255, 255, 0.15);
+}
+
+@media(max-width:768px){
+    .navbar-brand{
+        width: 50%;
+    }
+}
