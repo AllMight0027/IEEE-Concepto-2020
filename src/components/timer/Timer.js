@@ -30,7 +30,7 @@ export default function App() {
   const stratTime = Date.now() / 1000; // use UNIX timestamp in seconds
 
   // REPLACE THIS WHOLE VALUE WITH THE TIMESTAMP OF THE DATE IN SECONDS
-  const endTime = 1600540200; // Sunday, 20-09-2020-00:00 AM
+  const endTime = 1603650600; // Sunday, 20-09-2020-00:00 AM
 
   const remainingTime = endTime - stratTime;
   const days = Math.ceil(remainingTime / daySeconds);
