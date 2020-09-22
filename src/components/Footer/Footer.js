@@ -7,7 +7,7 @@ export default function Footer() {
         © 2020 Made with &hearts; by IEEE SRM SB
       </div>
       <div className="priv">
-        <ul className="list-unstyled d-flex justify-content-end mb-0">
+        <ul className="list-unstyled d-flex justify-content-center mb-0">
           <li className="mr-2 mb-2"><a className="text-white" href="">Disclaimer</a></li>
           <li className="mr-2 mb-2"><a className="text-white" href="">Code of Conduct</a></li>
           <li className="mr-2 mb-2"><a className="text-white" href="">Privacy Policy</a></li>
