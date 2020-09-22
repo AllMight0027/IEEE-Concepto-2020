@@ -1,50 +1,63 @@
-*, body, html{
+*,
+body,
+html {
   color: white;
 }
-.hero{
+.hero {
   min-height: 100vh;
   width: 100vw;
 }
-.col-12 img{ 
+.col-12 img {
   width: 100%;
 }
 
-.nav-item{
+.nav-item {
   text-align: center;
 }
 
-.pass{
+.pass {
   padding: 1rem;
   border: 2px solid white;
   color: white;
+  font-size: 30px;
+  margin-top: 2rem;
 }
-.pass:hover{
+
+.pass a {
+  color: white;
+}
+.pass:hover {
   color: black;
   background-color: white;
   transition: 0.2s ease-in-out;
 }
-.about{
+.pass:hover a {
+  color: black;
+  background-color: white;
+  transition: 0.2s ease-in-out;
+}
+.about {
   min-height: 30vh;
   padding-top: 15vh;
 }
 
-.speaker{
+.speaker {
   padding-top: 15vh;
 }
 
-.speakers{
+.speakers {
   box-shadow: 0px 0px 5px 7px rgba(255, 255, 255, 0.15);
 }
 
-.speaker-img{
+.speaker-img {
   border: 1px solid white;
 }
 
-.speaker img{
+.speaker img {
   width: 100%;
 }
 
-.speaker-details{
+.speaker-details {
   background-color: white;
   color: black;
   padding: 7px;
@@ -55,26 +68,27 @@
   align-items: center;
 }
 
-.speaker-details h4,.speaker-details h6{
+.speaker-details h4,
+.speaker-details h6 {
   color: black;
 }
 
-.col-12{
+.col-12 {
   padding: 0 3rem;
 }
 
-.sponsor{
+.sponsor {
   min-height: 30vh;
 }
 
-button.pass{
+button.pass {
   background-color: black;
   position: relative;
   font-size: 20px;
   margin-bottom: 10vh;
 }
 
-.sponsor .pass::before{
+.sponsor .pass::before {
   content: "";
   background-color: white;
   padding: 1rem;
@@ -87,34 +101,39 @@ button.pass{
   transform: translate(-15%, -50%);
 }
 
-.pass:hover::before{
+.pass:hover::before {
   background-color: black;
   transition: 0.2s ease-in-out;
   border: 1px solid white;
 }
 
-@media(min-width:992px){
-  .timerr{
+@media (min-width: 992px) {
+  .timerr {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
+  }
 }
 
-
-@media(max-width:768px){
-  .about{
+@media (max-width: 768px) {
+  .about {
     min-height: 50vh;
   }
-  .speaker img{
+  .speaker img {
     height: 70vw;
     width: 70vw;
   }
-  button.pass{
+  button.pass {
     font-size: 16px;
   }
-  .timerr{
+  .timerr {
     padding-top: 10vh;
+  }
+}
+
+@media (max-width: 480px) {
+  .pass {
+    font-size: 16px;
   }
 }
