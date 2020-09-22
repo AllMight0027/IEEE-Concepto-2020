@@ -57,9 +57,7 @@ const Home = () => {
       </div>
       <div className="container sponsor text-center px-4">
         <h1 className="mb-5">Sponsors</h1>
-        <button className="pass" onClick={e => {
-          setSpeakers([...speaker, speaker[speaker.length-1]+1])
-        }}>Become a Sponsor</button>
+        <button className="pass">Become a Sponsor</button>
       </div>
       <Footer />
     </div>
