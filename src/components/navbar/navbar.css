@@ -14,6 +14,9 @@
     border-bottom: 2px solid white;
 }
 
+.navbar-dark .navbar-nav .nav-link{
+    color: rgba(255, 255, 255, 0.9);
+}
 
 .passes .nav-link{
     border: 2px solid white;

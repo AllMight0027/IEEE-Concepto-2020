@@ -1,3 +1,7 @@
+.event{
+  min-height: 90vh;
+}
+
 .events-header {
   display: grid;
   place-items: center;
@@ -15,7 +19,6 @@ h1 {
   border: 0.1rem solid white;
   border-radius: 6rem;
   transition: background-color 0.2s ease;
-
   margin: 3rem 0;
 }
 
@@ -25,12 +28,9 @@ h1 {
 
 .subtext {
   text-align: center !important;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
-.pass {
-  margin-bottom: -3rem !important;
-}
 
 .sponsor {
   margin-top: 2rem;
