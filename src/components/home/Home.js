@@ -20,7 +20,7 @@ const Home = () => {
               <Timer />
             </div>
             <div className="col-12 d-flex justify-content-center">
-              <a href="" class="pass">Get your passes</a>
+              <a href="" className="pass">Get your passes</a>
             </div>
           </div>
         </div>
@@ -37,14 +37,14 @@ const Home = () => {
           <div className="col-12 col-lg-4 mb-5 speaker">
             <div className="speakers">
               <div className="speaker-img">
-                <img src="./speaker-demo.png" />
+                <img src="./speaker-ques.png" />
               </div>
               <div className="speaker-details">
                 <div className="speaker-name">
-                  <h4>Harsh Gour</h4>
+                  <h4>Yet to be revealed</h4>
                 </div>
                 <div className="speaker-desg">
-                  <h6>Web developer @ IEEE</h6>
+                  <h6></h6>
                 </div>
               </div>
             </div>
@@ -52,14 +52,14 @@ const Home = () => {
           <div className="col-12 col-lg-4 mb-5 speaker">
             <div className="speakers">
               <div className="speaker-img">
-                <img src="./speaker-demo.png" />
+                <img src="./speaker-ques.png" />
               </div>
               <div className="speaker-details">
                 <div className="speaker-name">
-                  <h4>Harsh Gour</h4>
+                  <h4>Yet to be revealed</h4>
                 </div>
                 <div className="speaker-desg">
-                  <h6>Web developer @ IEEE</h6>
+                  <h6></h6>
                 </div>
               </div>
             </div>
@@ -67,14 +67,14 @@ const Home = () => {
           <div className="col-12 col-lg-4 mb-5 speaker">
             <div className="speakers">
               <div className="speaker-img">
-                <img src="./speaker-demo.png" />
+                <img src="./speaker-ques.png" />
               </div>
               <div className="speaker-details">
                 <div className="speaker-name">
-                  <h4>Harsh Gour</h4>
+                  <h4>Yet to be revealed</h4>
                 </div>
                 <div className="speaker-desg">
-                  <h6>Web developer @ IEEE</h6>
+                  <h6></h6>
                 </div>
               </div>
             </div>
@@ -82,14 +82,14 @@ const Home = () => {
           <div className="col-12 col-lg-4 mb-5 speaker">
             <div className="speakers">
               <div className="speaker-img">
-                <img src="./speaker-demo.png" />
+                <img src="./speaker-ques.png" />
               </div>
               <div className="speaker-details">
                 <div className="speaker-name">
-                  <h4>Harsh Gour</h4>
+                  <h4>Yet to be revealed</h4>
                 </div>
                 <div className="speaker-desg">
-                  <h6>Web developer @ IEEE</h6>
+                  <h6></h6>
                 </div>
               </div>
             </div>
@@ -97,14 +97,14 @@ const Home = () => {
           <div className="col-12 col-lg-4 mb-5 speaker">
             <div className="speakers">
               <div className="speaker-img">
-                <img src="./speaker-demo.png" />
+                <img src="./speaker-ques.png" />
               </div>
               <div className="speaker-details">
                 <div className="speaker-name">
-                  <h4>Harsh Gour</h4>
+                  <h4>Yet to be revealed</h4>
                 </div>
                 <div className="speaker-desg">
-                  <h6>Web developer @ IEEE</h6>
+                  <h6></h6>
                 </div>
               </div>
             </div>
@@ -112,19 +112,23 @@ const Home = () => {
           <div className="col-12 col-lg-4 mb-5 speaker">
             <div className="speakers">
               <div className="speaker-img">
-                <img src="./speaker-demo.png" />
+                <img src="./speaker-ques.png" />
               </div>
               <div className="speaker-details">
                 <div className="speaker-name">
-                  <h4>Harsh Gour</h4>
+                  <h4>Yet to be revealed</h4>
                 </div>
                 <div className="speaker-desg">
-                  <h6>Web developer @ IEEE</h6>
+                  <h6></h6>
                 </div>
               </div>
             </div>
           </div>
         </div>
+      </div>
+      <div className="container sponsor text-center px-4">
+        <h1 className="mb-5">Sponsors</h1>
+        <button className="pass">Become a Sponsor</button>
       </div>
       <Footer />
     </div>
