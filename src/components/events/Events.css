@@ -1,0 +1,33 @@
+.events-header {
+  display: grid;
+  place-items: center;
+  margin-bottom: 3rem;
+  margin-top: -2rem;
+}
+
+h1 {
+  font-family: "Montserrat";
+}
+
+.event-image {
+  height: 12rem !important;
+  width: 12rem !important;
+  border: 0.1rem solid white;
+  border-radius: 6rem;
+  transition: background-color 0.2s ease;
+
+  margin: 3rem 0;
+}
+
+.event-image:hover {
+  background-color: #ffffff33;
+}
+
+.subtext {
+  text-align: center !important;
+  margin-bottom: 2rem;
+}
+
+.pass {
+  margin-bottom: -3rem !important;
+}
