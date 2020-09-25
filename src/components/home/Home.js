@@ -52,6 +52,33 @@ const Home = () => {
             within reach of all those that wish to pursue it.
           </p>
         </div>
+
+        <div className="container get-passes text-center px-4">
+          <h1 className="mb-5 font-weight-bold">Get your passes</h1>
+          <div className="row">
+            <div className="col-md text-left">
+              Changemaker, inspire shared unit of analysis inspiring natural
+              resources. B-corp our work philanthropy shine move the needle;
+              indicators, inspirational boots on the ground benefit corporation
+              resilient do-gooder the resistance thought partnership. Relief,
+              leverage vibrant blended value ecosystem, disrupt state of play
+              co-creation indicators correlation. Resilient do-gooder, resist
+              parse, change-makers.
+            </div>
+            <div className="col-md get-passes-right">
+              <div>
+                <a
+                  href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAASycIa9UNFYxREkzQkxQSlpUOEtNRTFTSVY0QzE5TC4u"
+                  className="pass"
+                  target="_blank"
+                >
+                  Get your passes
+                </a>
+              </div>
+              <div>Register now for early bird discount!</div>
+            </div>
+          </div>
+        </div>
         <div className="container speaker text-center px-4" id="speaker">
           <h1 className="mb-5 font-weight-bold">Speakers</h1>
           <div className="speakers-grid row py-5">
@@ -77,7 +104,7 @@ const Home = () => {
           </div>
         </div>
         <div className="container sponsor text-center px-4">
-          <h1 className="mb-5">Sponsors</h1>
+          <h1 className="mb-5 font-weight-bold">Sponsors</h1>
           <button className="pass">
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSeRGp6GhgJdspfvYZVDLqUqyyK4kfdRVdCNTeGGVhdkGr0RwQ/viewform"
@@ -88,7 +115,7 @@ const Home = () => {
           </button>
         </div>
         <div className="container faq text-center px-4">
-          <h1 className="mb-5">FAQ</h1>
+          <h1 className="mb-5 font-weight-bold">FAQ</h1>
           <div class="accordion" id="accordionFaq">
             <div class="card">
               <div class="card-header" id="questionOne">

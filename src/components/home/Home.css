@@ -41,6 +41,21 @@ html {
   padding-top: 15vh;
 }
 
+.get-passes-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+}
+
+.get-passes-right div {
+  margin-top: 2rem;
+}
+
+.get-passes-right div a {
+  word-wrap: none;
+}
+
 .speaker {
   padding-top: 15vh;
 }
@@ -151,6 +166,10 @@ button.pass {
 .btn:hover,
 .btn:active {
   color: #fff;
+}
+
+.card {
+  border-width: 2px;
 }
 
 .card-body {
