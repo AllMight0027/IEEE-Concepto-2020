@@ -56,7 +56,7 @@ const Home = () => {
         <div className="container get-passes text-center px-4">
           <h1 className="mb-5 font-weight-bold">Get your passes</h1>
           <div className="row">
-            <div className="col-md text-left">
+            <div className="col-md text-center text-md-left">
               Changemaker, inspire shared unit of analysis inspiring natural
               resources. B-corp our work philanthropy shine move the needle;
               indicators, inspirational boots on the ground benefit corporation
