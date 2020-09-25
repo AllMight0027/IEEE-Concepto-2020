@@ -77,7 +77,8 @@ html {
   padding: 0 3rem;
 }
 
-.sponsor {
+.sponsor,
+.faq {
   min-height: 30vh;
 }
 
@@ -136,4 +137,26 @@ button.pass {
   .pass {
     font-size: 16px;
   }
+}
+
+.card-header {
+  background-color: #111;
+  color: white !important;
+}
+
+.btn {
+  color: #ccc;
+}
+
+.btn:hover,
+.btn:active {
+  color: #fff;
+}
+
+.card-body {
+  color: #000;
+}
+
+.faq {
+  margin-bottom: 5rem;
 }

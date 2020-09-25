@@ -87,6 +87,238 @@ const Home = () => {
             </a>
           </button>
         </div>
+        <div className="container faq text-center px-4">
+          <h1 className="mb-5">FAQ</h1>
+          <div class="accordion" id="accordionFaq">
+            <div class="card">
+              <div class="card-header" id="questionOne">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-block text-left"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseOne"
+                    aria-expanded="false"
+                    aria-controls="collapseOne"
+                  >
+                    📅 When is the last day of registration?
+                  </button>
+                </h2>
+              </div>
+
+              <div
+                id="collapseOne"
+                class="collapse"
+                aria-labelledby="questionOne"
+                data-parent="#accordionFaq"
+              >
+                <div class="card-body text-left">
+                  Applications close October 25th, 6 P.M. IST!
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="questionTwo">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-block text-left collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    😵 Who is eligible to participate in CONCEPTO?
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseTwo"
+                class="collapse"
+                aria-labelledby="questionTwo"
+                data-parent="#accordionFaq"
+              >
+                <div class="card-body text-left">
+                  Any high school student, undergraduate student, graduate
+                  student or a professional across India (and beyond) can
+                  participate.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="questionThree">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-block text-left collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    ⏳ When and where is CONCEPTO?
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseThree"
+                class="collapse"
+                aria-labelledby="questionThree"
+                data-parent="#accordionFaq"
+              >
+                <div class="card-body text-left">
+                  CONCEPTO will be completely virtual - but don't worry, we have
+                  a LOT of fun surprises planned! The event will be held from
+                  October 26-31. Stay tuned for the schedule and speakers, to be
+                  gradually revealed. 👀
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="questionFour">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-block text-left collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseFour"
+                    aria-expanded="false"
+                    aria-controls="collapseFour"
+                  >
+                    😎 Will there be anything for participants?
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseFour"
+                class="collapse"
+                aria-labelledby="questionFour"
+                data-parent="#accordionFaq"
+              >
+                <div class="card-body text-left">
+                  Yes. Yes. Yes!!! EXPERIENCE. Since the event shall be held
+                  virtual, we shall try our best to shoot the coupon codes from
+                  our sponsors to your mail IDs.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="questionFive">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-block text-left collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseFive"
+                    aria-expanded="false"
+                    aria-controls="collapseFive"
+                  >
+                    😕 Why should I come to CONCEPTO?
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseFive"
+                class="collapse"
+                aria-labelledby="questionFive"
+                data-parent="#accordionFaq"
+              >
+                <div class="card-body text-left">
+                  CONCEPTO has been crafted by a team of experienced people in
+                  their own field. We aim to bring you the best possible
+                  interactive session experience.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="questionSix">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-block text-left collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseSix"
+                    aria-expanded="false"
+                    aria-controls="collapseSix"
+                  >
+                    📋 Why is there an application?
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseSix"
+                class="collapse"
+                aria-labelledby="questionSix"
+                data-parent="#accordionFaq"
+              >
+                <div class="card-body text-left">
+                  The application is short and crisp, we promise! We want to
+                  streamline the flow for our team. Hence, pushing out invites
+                  and coupons will be easy for us. Furthermore, it help will us
+                  to avoid ROBOTS.
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header" id="questionSeven">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-block text-left collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseSeven"
+                    aria-expanded="false"
+                    aria-controls="collapseSeven"
+                  >
+                    🤑 I am interested in sponsoring CONCEPTO, who can I reach
+                    out to?
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseSeven"
+                class="collapse"
+                aria-labelledby="questionSeven"
+                data-parent="#accordionFaq"
+              >
+                <div class="card-body text-left">
+                  We're so excited to hear you're interested! Please click on
+                  "Become a Sponsor" and fill out the small form. We'll get back
+                  to you ASAP.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="questionEight">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-block text-left collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseEight"
+                    aria-expanded="false"
+                    aria-controls="collapseEight"
+                  >
+                    📩 I have a question that's not here in the FAQ, what do I
+                    do?
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseEight"
+                class="collapse"
+                aria-labelledby="questionEight"
+                data-parent="#accordionFaq"
+              >
+                <div class="card-body text-left">
+                  Please email us at ieee@srmist.edu.in and we'll get back to
+                  you ASAP!
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <Footer />
       </div>
     </Router>
