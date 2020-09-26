@@ -72,6 +72,19 @@ const Navbar = () => {
               Events
             </a>
           </li>
+          <li className="nav-item">
+            <Link
+              activeClass="active"
+              className="nav-link"
+              to="faq"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              FAQs
+            </Link>
+          </li>
           <li className="nav-item passes">
             <a
               className="nav-link"

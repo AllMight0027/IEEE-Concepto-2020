@@ -57,19 +57,21 @@ const Home = () => {
             {speaker.map((item) => {
               return (
                 <div className="col-12 col-lg-4 mb-5 speaker">
-                  <div className="speakers">
-                    <div className="speaker-img">
-                      <img src="./speaker-ques.png" />
-                    </div>
-                    <div className="speaker-details">
-                      <div className="speaker-name">
-                        <h4>Yet to be revealed</h4>
+                  <a href="/event">
+                    <div className="speakers">
+                      <div className="speaker-img">
+                        <img src="./speaker-ques.png" />
                       </div>
-                      <div className="speaker-desg">
-                        <h6></h6>
+                      <div className="speaker-details">
+                        <div className="speaker-name">
+                          <h4>Yet to be revealed</h4>
+                        </div>
+                        <div className="speaker-desg">
+                          <h6></h6>
+                        </div>
                       </div>
                     </div>
-                  </div>
+                  </a>
                 </div>
               );
             })}
