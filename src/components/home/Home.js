@@ -42,10 +42,10 @@ const Home = () => {
             and this principle is realized with CONCEPTO. Learn from twelve
             speakers hailing from various industries such as General Electric,
             Amazon, Google, and Morgan Stanley, to name just a few. These
-            speakers are some of the most experienced veterans in their field, a
-            diverse panel of individuals indeed because knowledge shared should
-            not be kept exclusive to a field and its people, instead of being
-            within reach of all those that wish to pursue it.
+            speakers are some of the most experienced professionals in their
+            field, a diverse panel of individuals indeed because knowledge
+            shared should not be kept exclusive to a field and its people, but
+            instead be within reach of all those who wish to pursue it.
           </p>
         </div>
         <div className="container speaker text-center px-4" id="speaker">
@@ -61,7 +61,7 @@ const Home = () => {
                       </div>
                       <div className="speaker-details">
                         <div className="speaker-name">
-                          <h4>Yet to be revealed</h4>
+                          <h4>Shhh, can't tell you yet.</h4>
                         </div>
                         <div className="speaker-desg">
                           <h6></h6>
