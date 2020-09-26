@@ -5,7 +5,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
 const Navbar = () => {
   return (
     <nav className="navbar fixed-top navbar-expand-lg navbar-dark px-3 py-2">
-      <a className="navbar-brand" href="#">
+      <a className="navbar-brand" href="/">
         <img src="./concepto.png" alt="" />
       </a>
       <button
