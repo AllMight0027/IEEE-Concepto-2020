@@ -278,7 +278,7 @@ const Home = () => {
                 <div class="card-body text-left">
                   The application is short and crisp, we promise! We want to
                   streamline the flow for our team. Hence, pushing out invites
-                  and coupons will be easy for us. Furthermore, it help will us
+                  and coupons will be easy for us. Furthermore, it will help us
                   to avoid ROBOTS.
                 </div>
               </div>
@@ -336,8 +336,9 @@ const Home = () => {
                 data-parent="#accordionFaq"
               >
                 <div class="card-body text-left">
-                  Please email us at ieee@srmist.edu.in and we'll get back to
-                  you ASAP!
+                  Please email us at{" "}
+                  <a href="mailto:ieee@srmist.edu.in">ieee@srmist.edu.in</a> and
+                  we'll get back to you ASAP!
                 </div>
               </div>
             </div>
