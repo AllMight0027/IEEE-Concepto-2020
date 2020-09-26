@@ -75,8 +75,7 @@ const Navbar = () => {
           <li className="nav-item passes">
             <a
               className="nav-link"
-              href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAASycIa9UNFYxREkzQkxQSlpUOEtNRTFTSVY0QzE5TC4u"
-              target="_blank"
+              href="#get-passes"
             >
               Get your passes
             </a>
