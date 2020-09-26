@@ -78,13 +78,21 @@ const Home = () => {
           <h1 className="mb-5 font-weight-bold">Get your passes</h1>
           <div className="row">
             <div className="col-md text-center text-md-left">
-              Changemaker, inspire shared unit of analysis inspiring natural
-              resources. B-corp our work philanthropy shine move the needle;
-              indicators, inspirational boots on the ground benefit corporation
-              resilient do-gooder the resistance thought partnership. Relief,
-              leverage vibrant blended value ecosystem, disrupt state of play
-              co-creation indicators correlation. Resilient do-gooder, resist
-              parse, change-makers.
+              Innovation, Ideation and Creation, they are the three pillars of
+              advancement. The quest for knowledge is crucial to actualizing
+              these three pillars. To do this, knowledge should be shared. With
+              the world, with anyone and everyone who might be on the same path
+              as yourself. To make this ideology a reality, IEEE SRM SB
+              introduce to you our flagship event CONCEPTO. <br />
+              Learn from twelve brilliant speakers belonging to a diverse range
+              of fields and industries such as Google and Morgan Stanley, to
+              name just a few. Amass the knowledge that these Titans of
+              experience and wisdom have to offer in their field, expand your
+              horizons with a diverse panel of individuals. Embrace Erudition.{" "}
+              <br />
+              Pre-Book your seat at our event for free now and ensure that you
+              do not miss out on this amazing opportunity, availing goodies from
+              our sponsors in the process!
             </div>
             <div className="col-md get-passes-right">
               <div>
