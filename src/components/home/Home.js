@@ -26,10 +26,7 @@ const Home = () => {
                 <Timer />
               </div>
               <div className="col-12 d-flex justify-content-center">
-                <a
-                  href="#get-passes"
-                  className="pass"
-                >
+                <a href="#get-passes" className="pass">
                   Get your passes
                 </a>
               </div>
@@ -92,14 +89,14 @@ const Home = () => {
             <div className="col-md get-passes-right">
               <div>
                 <a
-                  href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAASycIa9UNFYxREkzQkxQSlpUOEtNRTFTSVY0QzE5TC4u"
+                  href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAASycIa9UNjJON0w0N0NaTldWVDlQUE5EMFlORzJIMi4u"
                   className="pass"
                   target="_blank"
                 >
-                  Get your passes @ Rs.500
+                  Pre book your passes
                 </a>
               </div>
-              <div>Register now for early bird discount!</div>
+              <div>Pre book now for early bird perks!</div>
             </div>
           </div>
         </div>
@@ -114,8 +111,8 @@ const Home = () => {
             </a>
           </button>
         </div>
-        <div className="container faq text-center px-4">
-          <h1 className="mb-5 font-weight-bold">FAQ</h1>
+        <div className="container faq text-center px-4" id="faq">
+          <h1 className="mb-5 font-weight-bold">FAQs</h1>
           <div class="accordion" id="accordionFaq">
             <div class="card">
               <div class="card-header" id="questionOne">

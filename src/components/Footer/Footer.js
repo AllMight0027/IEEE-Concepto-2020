@@ -3,7 +3,7 @@ import "./footer.css";
 export default function Footer() {
   return (
     <footer>
-      <div className="footer">© 2020 Made with &hearts; by IEEE SRM SB</div>
+      <div className="footer pt-2">© 2020 Made with ❤️️ by IEEE SRM SB</div>
       <div className="priv">
         <ul className="list-unstyled d-flex justify-content-center mb-0">
           <li className="mr-2 mb-2">

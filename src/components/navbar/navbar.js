@@ -42,30 +42,14 @@ const Navbar = () => {
             </a>
           </li>
           <li className="nav-item">
-            <Link
-              activeClass="active"
-              className="nav-link"
-              to="about"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
+            <a className="nav-link" href="/#about">
               About
-            </Link>
+            </a>
           </li>
           <li className="nav-item">
-            <Link
-              activeClass="active"
-              className="nav-link"
-              to="speaker"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
+            <a className="nav-link" href="/#speaker">
               Speakers
-            </Link>
+            </a>
           </li>
           <li className="nav-item" id="event">
             <a className="nav-link" href="/event">
@@ -73,23 +57,17 @@ const Navbar = () => {
             </a>
           </li>
           <li className="nav-item">
-            <Link
-              activeClass="active"
-              className="nav-link"
-              to="faq"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
+            <a className="nav-link" href="/#faq">
               FAQs
-            </Link>
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="http://ieeesrmist.in/">
+              About IEEE SRM
+            </a>
           </li>
           <li className="nav-item passes">
-            <a
-              className="nav-link"
-              href="#get-passes"
-            >
+            <a className="nav-link" href="/#get-passes">
               Get your passes
             </a>
           </li>

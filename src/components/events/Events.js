@@ -23,7 +23,7 @@ const Events = () => {
             className="pass"
             target="_blank"
           >
-            Get your passes
+            Pre book your passes
           </a>
         </div>
       </div>
