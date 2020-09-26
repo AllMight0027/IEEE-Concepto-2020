@@ -137,7 +137,7 @@ const Home = () => {
                 data-parent="#accordionFaq"
               >
                 <div class="card-body text-left">
-                  Applications close October 25th, 6 P.M. IST!
+                  Applications close October 25th, 12:59 P.M. IST!
                 </div>
               </div>
             </div>
