@@ -27,9 +27,8 @@ const Home = () => {
               </div>
               <div className="col-12 d-flex justify-content-center">
                 <a
-                  href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAASycIa9UNFYxREkzQkxQSlpUOEtNRTFTSVY0QzE5TC4u"
+                  href="#get-passes"
                   className="pass"
-                  target="_blank"
                 >
                   Get your passes
                 </a>
