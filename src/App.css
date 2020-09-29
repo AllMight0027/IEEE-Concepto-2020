@@ -27,3 +27,29 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #f1f1f1;
 }
+
+.modal {
+  background-color: #00000088;
+  /* transition: background-color 0.15s linear; */
+}
+
+.modal-content {
+  background-color: #111;
+  border-radius: 0.5rem;
+  border: 0.1rem solid #bfbfbf;
+  margin-bottom: 10rem;
+}
+
+.modal-header,
+.modal-footer {
+  border: none;
+}
+
+.close:focus {
+  outline: none;
+}
+
+.btn.btn-telegram {
+  background-color: #48a9e1;
+  color: black;
+}

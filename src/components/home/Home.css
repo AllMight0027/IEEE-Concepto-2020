@@ -41,7 +41,7 @@ html {
   padding-top: 15vh;
 }
 
-.get-passes{
+.get-passes {
   padding-top: 15vh;
 }
 
@@ -57,7 +57,7 @@ html {
 }
 
 .get-passes-right div a {
-  word-wrap: none;
+  white-space: nowrap;
 }
 
 .speaker {
@@ -128,10 +128,10 @@ button.pass {
   border: 1px solid white;
 }
 
-.accordion .card{
+.accordion .card {
   margin-bottom: 12px;
-  border-radius: 20px!important;
-  border-bottom: 1px solid rgba(0,0,0,.125)!important;
+  border-radius: 20px !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125) !important;
 }
 
 @media (min-width: 992px) {
