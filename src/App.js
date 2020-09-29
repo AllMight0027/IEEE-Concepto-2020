@@ -57,7 +57,7 @@ function App() {
               </button>
             </div>
             <div className="modal-body">
-              Join our Discord server to get the latest updates
+              Join our Telegram channel to get the latest updates
             </div>
             <div className="modal-footer">
               <a
@@ -67,7 +67,7 @@ function App() {
                 href="http://t.me/concepto2020"
                 target="_blank"
               >
-                Join Telegram Group
+                Join Telegram
               </a>
             </div>
           </div>
