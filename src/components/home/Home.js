@@ -51,28 +51,11 @@ const Home = () => {
           <h1 className="mb-5 font-weight-bold">Speakers</h1>
           <div className="speakers-grid row py-5">
             <div className="col-12 col-lg-4 mb-5 speaker">
-              <a href="/event">
-                <div className="speakers">
-                  <div className="speaker-img">
-                    <img src={require("./without bg/Deepesh Nanda.png")} />
-                  </div>
-                  <div className="speaker-details">
-                    <div className="speaker-name">
-                      <h4>Deepesh Nanda</h4>
-                    </div>
-                    <div className="speaker-desg">
-                      <h6>CEO, GE Gas Power</h6>
-                    </div>
-                  </div>
+              <div className="speakers">
+                <div className="speaker-img">
+                  <img src={require("./without bg/Steven Inouye.png")} />
                 </div>
-              </a>
-            </div>
-            <div className="col-12 col-lg-4 mb-5 speaker">
-              <a href="/event">
-                <div className="speakers">
-                  <div className="speaker-img">
-                    <img src={require("./without bg/Steven Inouye.png")} />
-                  </div>
+                <a href="https://www.linkedin.com/in/steveninouye/">
                   <div className="speaker-details">
                     <div className="speaker-name">
                       <h4>Steven Inouye</h4>
@@ -81,15 +64,32 @@ const Home = () => {
                       <h6>SDE Google California</h6>
                     </div>
                   </div>
-                </div>
-              </a>
+                </a>
+              </div>
             </div>
             <div className="col-12 col-lg-4 mb-5 speaker">
-              <a href="/event">
-                <div className="speakers">
-                  <div className="speaker-img">
-                    <img src={require("./without bg/Pradeep Kumar.png")} />
+              <div className="speakers">
+                <div className="speaker-img">
+                  <img src={require("./without bg/Deepesh Nanda.png")} />
+                </div>
+                <a href="https://www.linkedin.com/in/kdeepeshnanda/">
+                  <div className="speaker-details">
+                    <div className="speaker-name">
+                      <h4>Deepesh Nanda</h4>
+                    </div>
+                    <div className="speaker-desg">
+                      <h6>CEO, GE Gas Power</h6>
+                    </div>
                   </div>
+                </a>
+              </div>
+            </div>
+            <div className="col-12 col-lg-4 mb-5 speaker">
+              <div className="speakers">
+                <div className="speaker-img">
+                  <img src={require("./without bg/Pradeep Kumar.png")} />
+                </div>
+                <a href="https://www.linkedin.com/in/pradeep-kumar-7b136312/">
                   <div className="speaker-details">
                     <div className="speaker-name">
                       <h4>Pradeep Kumar</h4>
@@ -98,15 +98,15 @@ const Home = () => {
                       <h6>IFS Officer</h6>
                     </div>
                   </div>
-                </div>
-              </a>
+                </a>
+              </div>
             </div>
             <div className="col-12 col-lg-4 mb-5 speaker">
-              <a href="/event">
-                <div className="speakers">
-                  <div className="speaker-img">
-                    <img src={require("./without bg/dain walker.png")} />
-                  </div>
+              <div className="speakers">
+                <div className="speaker-img">
+                  <img src={require("./without bg/dain walker.png")} />
+                </div>
+                <a href="https://instagram.com/dainwalker?igshid=2i4075xc8pz">
                   <div className="speaker-details">
                     <div className="speaker-name">
                       <h4>Dain Walker</h4>
@@ -115,15 +115,15 @@ const Home = () => {
                       <h6>Founder, Victory Front</h6>
                     </div>
                   </div>
-                </div>
-              </a>
+                </a>
+              </div>
             </div>
             <div className="col-12 col-lg-4 mb-5 speaker">
-              <a href="/event">
-                <div className="speakers">
-                  <div className="speaker-img">
-                    <img src={require("./without bg/Rohit Ghosh.png")} />
-                  </div>
+              <div className="speakers">
+                <div className="speaker-img">
+                  <img src={require("./without bg/Rohit Ghosh.png")} />
+                </div>
+                <a href="https://www.linkedin.com/in/ghoshrohit">
                   <div className="speaker-details">
                     <div className="speaker-name">
                       <h4>Rohit Ghosh</h4>
@@ -132,15 +132,15 @@ const Home = () => {
                       <h6>Founder, Qure.ai</h6>
                     </div>
                   </div>
-                </div>
-              </a>
+                </a>
+              </div>
             </div>
             <div className="col-12 col-lg-4 mb-5 speaker">
-              <a href="/event">
-                <div className="speakers">
-                  <div className="speaker-img">
-                    <img src={require("./without bg/Paramjit Jolly.png")} />
-                  </div>
+              <div className="speakers">
+                <div className="speaker-img">
+                  <img src={require("./without bg/Paramjit Jolly.png")} />
+                </div>
+                <a href="https://www.linkedin.com/in/jolly">
                   <div className="speaker-details">
                     <div className="speaker-name">
                       <h4>Paramjit Jolly</h4>
@@ -149,15 +149,15 @@ const Home = () => {
                       <h6>Director Engineering, Guavus</h6>
                     </div>
                   </div>
-                </div>
-              </a>
+                </a>
+              </div>
             </div>
             <div className="col-12 col-lg-4 mb-5 speaker">
-              <a href="/event">
-                <div className="speakers">
-                  <div className="speaker-img">
-                    <img src={require("./without bg/Ananya Chandra.png")} />
-                  </div>
+              <div className="speakers">
+                <div className="speaker-img">
+                  <img src={require("./without bg/Ananya Chandra.png")} />
+                </div>
+                <a href="https://www.linkedin.com/in/-ananyachandra">
                   <div className="speaker-details">
                     <div className="speaker-name">
                       <h4>Ananya Chandra</h4>
@@ -166,17 +166,15 @@ const Home = () => {
                       <h6>CEO, Women Prosperity Lab</h6>
                     </div>
                   </div>
-                </div>
-              </a>
+                </a>
+              </div>
             </div>
             <div className="col-12 col-lg-4 mb-5 speaker">
-              <a href="/event">
-                <div className="speakers">
-                  <div className="speaker-img">
-                    <img
-                      src={require("./without bg/Shashi Bhushan Kumar.png")}
-                    />
-                  </div>
+              <div className="speakers">
+                <div className="speaker-img">
+                  <img src={require("./without bg/Shashi Bhushan Kumar.png")} />
+                </div>
+                <a href="https://www.linkedin.com/in/shashi-bhushan-coder">
                   <div className="speaker-details">
                     <div className="speaker-name">
                       <h4>Shashi Bhushan </h4>
@@ -185,15 +183,15 @@ const Home = () => {
                       <h6>Tech Lead, GeeksForGeeks</h6>
                     </div>
                   </div>
-                </div>
-              </a>
+                </a>
+              </div>
             </div>
             <div className="col-12 col-lg-4 mb-5 speaker">
-              <a href="/event">
-                <div className="speakers">
-                  <div className="speaker-img">
-                    <img src={require("./without bg/Rashmi Phanishyaee.png")} />
-                  </div>
+              <div className="speakers">
+                <div className="speaker-img">
+                  <img src={require("./without bg/Rashmi Phanishyaee.png")} />
+                </div>
+                <a href="https://www.linkedin.com/in/rashmiphanishyaee/">
                   <div className="speaker-details">
                     <div
                       className="speaker-name"
@@ -205,15 +203,15 @@ const Home = () => {
                       <h6>Sr. Business Intelligence Associate, LinkedIn</h6>
                     </div>
                   </div>
-                </div>
-              </a>
+                </a>
+              </div>
             </div>
             <div className="col-12 col-lg-4 mb-5 speaker">
-              <a href="/event">
-                <div className="speakers">
-                  <div className="speaker-img">
-                    <img src={require("./without bg/Anudeep Ayyagiri.png")} />
-                  </div>
+              <div className="speakers">
+                <div className="speaker-img">
+                  <img src={require("./without bg/Anudeep Ayyagiri.png")} />
+                </div>
+                <a href="https://www.linkedin.com/in/anudeep108/">
                   <div className="speaker-details">
                     <div className="speaker-name">
                       <h4>Anudeep Ayyagari</h4>
@@ -222,16 +220,16 @@ const Home = () => {
                       <h6>UX Designer, Amazon</h6>
                     </div>
                   </div>
-                </div>
-              </a>
+                </a>
+              </div>
             </div>
 
             <div className="col-12 col-lg-4 mb-5 speaker">
-              <a href="/event">
-                <div className="speakers">
-                  <div className="speaker-img">
-                    <img src={require("./without bg/Dr. Arun Surendran.png")} />
-                  </div>
+              <div className="speakers">
+                <div className="speaker-img">
+                  <img src={require("./without bg/Dr. Arun Surendran.png")} />
+                </div>
+                <a href="https://www.linkedin.com/in/arun-surendran-64510911 ">
                   <div className="speaker-details">
                     <div className="speaker-name">
                       <h4>Dr. Arun Surendran</h4>
@@ -240,15 +238,15 @@ const Home = () => {
                       <h6>Founder Director, Adcy.io</h6>
                     </div>
                   </div>
-                </div>
-              </a>
+                </a>
+              </div>
             </div>
             <div className="col-12 col-lg-4 mb-5 speaker">
-              <a href="/event">
-                <div className="speakers">
-                  <div className="speaker-img">
-                    <img src={require("./without bg/Rupesh Saxena.png")} />
-                  </div>
+              <div className="speakers">
+                <div className="speaker-img">
+                  <img src={require("./without bg/Rupesh Saxena.png")} />
+                </div>
+                <a href="https://www.linkedin.com/in/rupesh-saxena-860a1854/">
                   <div className="speaker-details">
                     <div
                       className="speaker-name"
@@ -257,11 +255,11 @@ const Home = () => {
                       <h4>Rupesh Saxena</h4>
                     </div>
                     <div className="speaker-desg">
-                      <h6>General Director, Morgan Stanley</h6>
+                      <h6>Executive Director, Morgan Stanley</h6>
                     </div>
                   </div>
-                </div>
-              </a>
+                </a>
+              </div>
             </div>
           </div>
         </div>
