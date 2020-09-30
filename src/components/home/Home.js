@@ -7,7 +7,6 @@ import Navbar from "../navbar/navbar";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 const Home = () => {
-  const [speaker, setSpeakers] = useState([1, 2, 3, 4, 5, 6]);
   return (
     <Router>
       <div>
@@ -51,27 +50,213 @@ const Home = () => {
         <div className="container speaker text-center px-4" id="speaker">
           <h1 className="mb-5 font-weight-bold">Speakers</h1>
           <div className="speakers-grid row py-5">
-            {speaker.map((item) => {
-              return (
-                <div className="col-12 col-lg-4 mb-5 speaker">
-                  <a href="/event">
-                    <div className="speakers">
-                      <div className="speaker-img">
-                        <img src="./speaker-ques.png" />
-                      </div>
-                      <div className="speaker-details">
-                        <div className="speaker-name">
-                          <h4>Shhh, can't tell you yet.</h4>
-                        </div>
-                        <div className="speaker-desg">
-                          <h6></h6>
-                        </div>
-                      </div>
+            <div className="col-12 col-lg-4 mb-5 speaker">
+              <a href="/event">
+                <div className="speakers">
+                  <div className="speaker-img">
+                    <img src={require("./without bg/Deepesh Nanda.png")} />
+                  </div>
+                  <div className="speaker-details">
+                    <div className="speaker-name">
+                      <h4>Deepesh Nanda</h4>
                     </div>
-                  </a>
+                    <div className="speaker-desg">
+                      <h6>CEO, GE Gas Power</h6>
+                    </div>
+                  </div>
                 </div>
-              );
-            })}
+              </a>
+            </div>
+            <div className="col-12 col-lg-4 mb-5 speaker">
+              <a href="/event">
+                <div className="speakers">
+                  <div className="speaker-img">
+                    <img src={require("./without bg/Steven Inouye.png")} />
+                  </div>
+                  <div className="speaker-details">
+                    <div className="speaker-name">
+                      <h4>Steven Inouye</h4>
+                    </div>
+                    <div className="speaker-desg">
+                      <h6>SDE Google California</h6>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div className="col-12 col-lg-4 mb-5 speaker">
+              <a href="/event">
+                <div className="speakers">
+                  <div className="speaker-img">
+                    <img src={require("./without bg/Pradeep Kumar.png")} />
+                  </div>
+                  <div className="speaker-details">
+                    <div className="speaker-name">
+                      <h4>Pradeep Kumar</h4>
+                    </div>
+                    <div className="speaker-desg">
+                      <h6>IFS Officer</h6>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div className="col-12 col-lg-4 mb-5 speaker">
+              <a href="/event">
+                <div className="speakers">
+                  <div className="speaker-img">
+                    <img src={require("./without bg/dain walker.png")} />
+                  </div>
+                  <div className="speaker-details">
+                    <div className="speaker-name">
+                      <h4>Dain Walker</h4>
+                    </div>
+                    <div className="speaker-desg">
+                      <h6>Founder, Victory Front</h6>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div className="col-12 col-lg-4 mb-5 speaker">
+              <a href="/event">
+                <div className="speakers">
+                  <div className="speaker-img">
+                    <img src={require("./without bg/Rohit Ghosh.png")} />
+                  </div>
+                  <div className="speaker-details">
+                    <div className="speaker-name">
+                      <h4>Rohit Ghosh</h4>
+                    </div>
+                    <div className="speaker-desg">
+                      <h6>Founder, Qure.ai</h6>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div className="col-12 col-lg-4 mb-5 speaker">
+              <a href="/event">
+                <div className="speakers">
+                  <div className="speaker-img">
+                    <img src={require("./without bg/Paramjit Jolly.png")} />
+                  </div>
+                  <div className="speaker-details">
+                    <div className="speaker-name">
+                      <h4>Paramjit Jolly</h4>
+                    </div>
+                    <div className="speaker-desg">
+                      <h6>Director Engineering, Guavus</h6>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div className="col-12 col-lg-4 mb-5 speaker">
+              <a href="/event">
+                <div className="speakers">
+                  <div className="speaker-img">
+                    <img src={require("./without bg/Ananya Chandra.png")} />
+                  </div>
+                  <div className="speaker-details">
+                    <div className="speaker-name">
+                      <h4>Ananya Chandra</h4>
+                    </div>
+                    <div className="speaker-desg">
+                      <h6>CEO, Women Prosperity Lab</h6>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div className="col-12 col-lg-4 mb-5 speaker">
+              <a href="/event">
+                <div className="speakers">
+                  <div className="speaker-img">
+                    <img
+                      src={require("./without bg/Shashi Bhushan Kumar.png")}
+                    />
+                  </div>
+                  <div className="speaker-details">
+                    <div className="speaker-name">
+                      <h4>Shashi Bhushan Kumar</h4>
+                    </div>
+                    <div className="speaker-desg">
+                      <h6>Tech Lead, GeeksForGeeks</h6>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div className="col-12 col-lg-4 mb-5 speaker">
+              <a href="/event">
+                <div className="speakers">
+                  <div className="speaker-img">
+                    <img src={require("./without bg/Rashmi Phanishyaee.png")} />
+                  </div>
+                  <div className="speaker-details">
+                    <div className="speaker-name">
+                      <h4>Rashmi Phanishyaee</h4>
+                    </div>
+                    <div className="speaker-desg">
+                      <h6>Sr. Business Intelligence Associate, LinkedIn</h6>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div className="col-12 col-lg-4 mb-5 speaker">
+              <a href="/event">
+                <div className="speakers">
+                  <div className="speaker-img">
+                    <img src={require("./without bg/Anudeep Ayyagiri.png")} />
+                  </div>
+                  <div className="speaker-details">
+                    <div className="speaker-name">
+                      <h4>Anudeep Ayyagari</h4>
+                    </div>
+                    <div className="speaker-desg">
+                      <h6>UX Designer, Amazon</h6>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div className="col-12 col-lg-4 mb-5 speaker">
+              <a href="/event">
+                <div className="speakers">
+                  <div className="speaker-img">
+                    <img src={require("./without bg/Dr. Arun Surendran.png")} />
+                  </div>
+                  <div className="speaker-details">
+                    <div className="speaker-name">
+                      <h4>Dr. Arun Surendran</h4>
+                    </div>
+                    <div className="speaker-desg">
+                      <h6>Founder Director, Adcy.io</h6>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div className="col-12 col-lg-4 mb-5 speaker">
+              <a href="/event">
+                <div className="speakers">
+                  <div className="speaker-img">
+                    <img src={require("./without bg/Rupesh Saxena.png")} />
+                  </div>
+                  <div className="speaker-details">
+                    <div className="speaker-name">
+                      <h4>Rupesh Saxena</h4>
+                    </div>
+                    <div className="speaker-desg">
+                      <h6>General Director, Morgan Stanley</h6>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
           </div>
         </div>
         <div className="container get-passes text-center px-4" id="get-passes">
