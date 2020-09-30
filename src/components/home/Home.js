@@ -55,7 +55,10 @@ const Home = () => {
                 <div className="speaker-img">
                   <img src={require("./without bg/Steven Inouye.png")} />
                 </div>
-                <a href="https://www.linkedin.com/in/steveninouye/">
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/steveninouye/"
+                >
                   <div className="speaker-details">
                     <div className="speaker-name">
                       <h4>Steven Inouye</h4>
@@ -72,7 +75,10 @@ const Home = () => {
                 <div className="speaker-img">
                   <img src={require("./without bg/Deepesh Nanda.png")} />
                 </div>
-                <a href="https://www.linkedin.com/in/kdeepeshnanda/">
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/kdeepeshnanda/"
+                >
                   <div className="speaker-details">
                     <div className="speaker-name">
                       <h4>Deepesh Nanda</h4>
@@ -89,7 +95,10 @@ const Home = () => {
                 <div className="speaker-img">
                   <img src={require("./without bg/Pradeep Kumar.png")} />
                 </div>
-                <a href="https://www.linkedin.com/in/pradeep-kumar-7b136312/">
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/pradeep-kumar-7b136312/"
+                >
                   <div className="speaker-details">
                     <div className="speaker-name">
                       <h4>Pradeep Kumar</h4>
@@ -106,7 +115,10 @@ const Home = () => {
                 <div className="speaker-img">
                   <img src={require("./without bg/dain walker.png")} />
                 </div>
-                <a href="https://instagram.com/dainwalker?igshid=2i4075xc8pz">
+                <a
+                  target="_blank"
+                  href="https://instagram.com/dainwalker?igshid=2i4075xc8pz"
+                >
                   <div className="speaker-details">
                     <div className="speaker-name">
                       <h4>Dain Walker</h4>
@@ -123,7 +135,10 @@ const Home = () => {
                 <div className="speaker-img">
                   <img src={require("./without bg/Rohit Ghosh.png")} />
                 </div>
-                <a href="https://www.linkedin.com/in/ghoshrohit">
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/ghoshrohit"
+                >
                   <div className="speaker-details">
                     <div className="speaker-name">
                       <h4>Rohit Ghosh</h4>
@@ -140,7 +155,7 @@ const Home = () => {
                 <div className="speaker-img">
                   <img src={require("./without bg/Paramjit Jolly.png")} />
                 </div>
-                <a href="https://www.linkedin.com/in/jolly">
+                <a target="_blank" href="https://www.linkedin.com/in/jolly">
                   <div className="speaker-details">
                     <div className="speaker-name">
                       <h4>Paramjit Jolly</h4>
@@ -157,7 +172,10 @@ const Home = () => {
                 <div className="speaker-img">
                   <img src={require("./without bg/Ananya Chandra.png")} />
                 </div>
-                <a href="https://www.linkedin.com/in/-ananyachandra">
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/-ananyachandra"
+                >
                   <div className="speaker-details">
                     <div className="speaker-name">
                       <h4>Ananya Chandra</h4>
@@ -174,7 +192,10 @@ const Home = () => {
                 <div className="speaker-img">
                   <img src={require("./without bg/Shashi Bhushan Kumar.png")} />
                 </div>
-                <a href="https://www.linkedin.com/in/shashi-bhushan-coder">
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/shashi-bhushan-coder"
+                >
                   <div className="speaker-details">
                     <div className="speaker-name">
                       <h4>Shashi Bhushan </h4>
@@ -191,7 +212,10 @@ const Home = () => {
                 <div className="speaker-img">
                   <img src={require("./without bg/Rashmi Phanishyaee.png")} />
                 </div>
-                <a href="https://www.linkedin.com/in/rashmiphanishyaee/">
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/rashmiphanishyaee/"
+                >
                   <div className="speaker-details">
                     <div
                       className="speaker-name"
@@ -211,7 +235,10 @@ const Home = () => {
                 <div className="speaker-img">
                   <img src={require("./without bg/Anudeep Ayyagiri.png")} />
                 </div>
-                <a href="https://www.linkedin.com/in/anudeep108/">
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/anudeep108/"
+                >
                   <div className="speaker-details">
                     <div className="speaker-name">
                       <h4>Anudeep Ayyagari</h4>
@@ -229,7 +256,10 @@ const Home = () => {
                 <div className="speaker-img">
                   <img src={require("./without bg/Dr. Arun Surendran.png")} />
                 </div>
-                <a href="https://www.linkedin.com/in/arun-surendran-64510911 ">
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/arun-surendran-64510911 "
+                >
                   <div className="speaker-details">
                     <div className="speaker-name">
                       <h4>Dr. Arun Surendran</h4>
@@ -246,7 +276,10 @@ const Home = () => {
                 <div className="speaker-img">
                   <img src={require("./without bg/Rupesh Saxena.png")} />
                 </div>
-                <a href="https://www.linkedin.com/in/rupesh-saxena-860a1854/">
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/rupesh-saxena-860a1854/"
+                >
                   <div className="speaker-details">
                     <div
                       className="speaker-name"
