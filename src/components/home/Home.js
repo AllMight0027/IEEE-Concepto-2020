@@ -64,7 +64,7 @@ const Home = () => {
                       <h4>Steven Inouye</h4>
                     </div>
                     <div className="speaker-desg">
-                      <h6>SDE Google California</h6>
+                      <h6>SDE, Google California</h6>
                     </div>
                   </div>
                 </a>

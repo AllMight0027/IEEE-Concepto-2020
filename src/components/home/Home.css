@@ -176,6 +176,21 @@ button.pass {
   margin-top: 15px;
 }
 
+@media (max-width: 1200px) {
+  .pass {
+    font-size: 16px;
+  }
+  .speaker-name h4 {
+    font-size: 19px;
+  }
+  .speaker-desg h6 {
+    font-size: 13px;
+  }
+  .sponsor-logo {
+    max-width: 150px;
+    /* margin-left: 0px; */
+  }
+}
 @media (max-width: 480px) {
   .pass {
     font-size: 16px;
