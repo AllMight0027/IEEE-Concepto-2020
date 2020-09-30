@@ -160,6 +160,18 @@ button.pass {
   }
 }
 
+.sponsor-logo {
+  max-height: 200px;
+  max-width: 200px;
+  margin-left: 45px;
+}
+
+.sponsor-lg-logo {
+  max-height: 100px;
+  max-width: 100px;
+  margin-left: 45px;
+}
+
 @media (max-width: 480px) {
   .pass {
     font-size: 16px;
@@ -169,6 +181,14 @@ button.pass {
   }
   .speaker-desg h6 {
     font-size: 13px;
+  }
+  .sponsor-logo {
+    max-width: 150px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+  }
+  .sponsor-lg-logo {
+    margin-left: 0px;
   }
 }
 

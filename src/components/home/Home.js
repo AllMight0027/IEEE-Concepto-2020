@@ -331,7 +331,43 @@ const Home = () => {
           </div>
         </div>
         <div className="container sponsor text-center px-4">
-          <h1 className="mb-5 font-weight-bold">Sponsors</h1>
+          <div className="row">
+            <div className="col-12">
+              <h1 className="mb-5 font-weight-bold">Sponsors</h1>
+            </div>
+
+            <div className="col-12 mb-5">
+              <a
+                href="https://www.dennetworks.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {" "}
+                <img src={require("./DEN Logo.png")} className="sponsor-logo" />
+              </a>
+              <a
+                href="http://www.custprint.in/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={require("./logo-home.png")}
+                  className="sponsor-logo"
+                />
+              </a>
+              <a
+                href="https://iventorsinitiatives.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={require("./IVentors-Logo.png")}
+                  className="sponsor-lg-logo"
+                />
+              </a>
+            </div>
+          </div>
+
           <button className="pass">
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSeRGp6GhgJdspfvYZVDLqUqyyK4kfdRVdCNTeGGVhdkGr0RwQ/viewform"
