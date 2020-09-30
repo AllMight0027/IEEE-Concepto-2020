@@ -179,7 +179,7 @@ const Home = () => {
                   </div>
                   <div className="speaker-details">
                     <div className="speaker-name">
-                      <h4>Shashi Bhushan Kumar</h4>
+                      <h4>Shashi Bhushan </h4>
                     </div>
                     <div className="speaker-desg">
                       <h6>Tech Lead, GeeksForGeeks</h6>
@@ -195,7 +195,10 @@ const Home = () => {
                     <img src={require("./without bg/Rashmi Phanishyaee.png")} />
                   </div>
                   <div className="speaker-details">
-                    <div className="speaker-name">
+                    <div
+                      className="speaker-name"
+                      style={{ marginBottom: "-8px" }}
+                    >
                       <h4>Rashmi Phanishyaee</h4>
                     </div>
                     <div className="speaker-desg">
@@ -247,7 +250,10 @@ const Home = () => {
                     <img src={require("./without bg/Rupesh Saxena.png")} />
                   </div>
                   <div className="speaker-details">
-                    <div className="speaker-name">
+                    <div
+                      className="speaker-name"
+                      style={{ marginBottom: "-5px" }}
+                    >
                       <h4>Rupesh Saxena</h4>
                     </div>
                     <div className="speaker-desg">

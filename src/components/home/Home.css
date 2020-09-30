@@ -164,6 +164,12 @@ button.pass {
   .pass {
     font-size: 16px;
   }
+  .speaker-name h4 {
+    font-size: 20px;
+  }
+  .speaker-desg h6 {
+    font-size: 13px;
+  }
 }
 
 .card-header {
