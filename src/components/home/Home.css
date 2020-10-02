@@ -66,10 +66,19 @@ html {
 
 .speakers {
   box-shadow: 0px 0px 5px 7px rgba(255, 255, 255, 0.15);
+  transition: transform 0.2s ease;
 }
 
 .speaker-img {
   border: 1px solid white;
+  transition: background-color 0.2s ease;
+}
+
+.speaker-img:hover {
+  background-color: #ffffff33;
+}
+.speakers:hover {
+  transform: scale(1.1);
 }
 
 .speaker img {
@@ -91,6 +100,10 @@ html {
 .speaker-details h4,
 .speaker-details h6 {
   color: black;
+}
+
+.speaker a:hover {
+  color: #000000;
 }
 
 .col-12 {
@@ -205,6 +218,12 @@ button.pass {
     max-width: 150px;
     /* margin-left: 0px; */
   }
+  #home {
+    margin-top: -45px;
+  }
+  #passbtn {
+    margin-top: -45px;
+  }
 }
 
 .card-header {
@@ -231,4 +250,12 @@ button.pass {
 
 .faq {
   margin-bottom: 5rem;
+}
+
+.join button {
+  background-color: #0088cc;
+  color: black;
+}
+.join button:hover {
+  transform: scale(1.05);
 }

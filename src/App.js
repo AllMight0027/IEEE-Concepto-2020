@@ -5,6 +5,18 @@ import Home from "./components/home/Home";
 import Events from "./components/events/Events";
 
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import Steven from "./components/events/Steven";
+import Nanda from "./components/events/Nanda";
+import Pradeep from "./components/events/Pradeep";
+import Dain from "./components/events/Dain";
+import Rohit from "./components/events/Rohit";
+import Jolly from "./components/events/Jolly";
+import Ananya from "./components/events/Ananya";
+import Shashi from "./components/events/Shashi";
+import Rashmi from "./components/events/Rashmi";
+import Anudeep from "./components/events/Anudeep";
+import Arun from "./components/events/Arun";
+import Rupesh from "./components/events/Rupesh";
 
 function App() {
   const [modalShowing, setModalShowing] = useState("hide");
@@ -36,6 +48,42 @@ function App() {
         </Route>
         <Route path="/event" exact>
           <Events />
+        </Route>
+        <Route path="/Steven-Inouye" exact>
+          <Steven />
+        </Route>
+        <Route path="/Deepesh-Nanda" exact>
+          <Nanda />
+        </Route>
+        <Route path="/Pradeep-Kumar" exact>
+          <Pradeep />
+        </Route>
+        <Route path="/Dain-Walker" exact>
+          <Dain />
+        </Route>
+        <Route path="/Rohit-Ghosh" exact>
+          <Rohit />
+        </Route>
+        <Route path="/Paramjit-Jolly" exact>
+          <Jolly />
+        </Route>
+        <Route path="/Ananya-Chandra" exact>
+          <Ananya />
+        </Route>
+        <Route path="/Shashi-Bhushan" exact>
+          <Shashi />
+        </Route>
+        <Route path="/Rashmi-Phanishyaee" exact>
+          <Rashmi />
+        </Route>
+        <Route path="/Anudeep-Ayyagari" exact>
+          <Anudeep />
+        </Route>
+        <Route path="/Arun-Surendran" exact>
+          <Arun />
+        </Route>
+        <Route path="/Rupesh-Saxena" exact>
+          <Rupesh />
         </Route>
       </Switch>
       <div

@@ -1,5 +1,5 @@
 .event {
-  min-height: calc( 100vh - 65px );
+  min-height: calc(100vh - 65px);
 }
 
 .events-header {
@@ -33,4 +33,25 @@ h1 {
 
 .sponsor {
   margin-top: 2rem;
+}
+
+.round-speaker {
+  /* padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px; */
+  max-height: 135px;
+  max-width: 135px;
+  margin-top: 15px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: aliceblue;
+  border-width: 2px;
+}
+
+.daily {
+  transition: background-color 0.2s ease;
+}
+.daily:hover {
+  background-color: #ffffff33;
 }

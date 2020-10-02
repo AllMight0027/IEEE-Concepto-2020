@@ -24,7 +24,10 @@ const Home = () => {
               <div className="col-12 d-flex justify-content-center my-5">
                 <Timer />
               </div>
-              <div className="col-12 d-flex justify-content-center">
+              <div
+                className="col-12 d-flex justify-content-center"
+                id="passbtn"
+              >
                 <a href="#get-passes" className="pass">
                   Get your passes
                 </a>
@@ -52,9 +55,11 @@ const Home = () => {
           <div className="speakers-grid row py-5">
             <div className="col-12 col-lg-4 mb-5 speaker">
               <div className="speakers">
-                <div className="speaker-img">
-                  <img src={require("./without bg/Steven Inouye.png")} />
-                </div>
+                <a href="/Steven-Inouye">
+                  <div className="speaker-img">
+                    <img src={require("./without bg/Steven Inouye.png")} />
+                  </div>
+                </a>
                 <a
                   target="_blank"
                   href="https://www.linkedin.com/in/steveninouye/"
@@ -72,9 +77,11 @@ const Home = () => {
             </div>
             <div className="col-12 col-lg-4 mb-5 speaker">
               <div className="speakers">
-                <div className="speaker-img">
-                  <img src={require("./without bg/Deepesh Nanda.png")} />
-                </div>
+                <a href="/Deepesh-Nanda">
+                  <div className="speaker-img">
+                    <img src={require("./without bg/Deepesh Nanda.png")} />
+                  </div>
+                </a>
                 <a
                   target="_blank"
                   href="https://www.linkedin.com/in/kdeepeshnanda/"
@@ -92,9 +99,11 @@ const Home = () => {
             </div>
             <div className="col-12 col-lg-4 mb-5 speaker">
               <div className="speakers">
-                <div className="speaker-img">
-                  <img src={require("./without bg/Pradeep Kumar.png")} />
-                </div>
+                <a href="/Pradeep-Kumar">
+                  <div className="speaker-img">
+                    <img src={require("./without bg/Pradeep Kumar.png")} />
+                  </div>
+                </a>
                 <a
                   target="_blank"
                   href="https://www.linkedin.com/in/pradeep-kumar-7b136312/"
@@ -112,9 +121,11 @@ const Home = () => {
             </div>
             <div className="col-12 col-lg-4 mb-5 speaker">
               <div className="speakers">
-                <div className="speaker-img">
-                  <img src={require("./without bg/dain walker.png")} />
-                </div>
+                <a href="/Dain-Walker">
+                  <div className="speaker-img">
+                    <img src={require("./without bg/dain walker.png")} />
+                  </div>
+                </a>
                 <a
                   target="_blank"
                   href="https://instagram.com/dainwalker?igshid=2i4075xc8pz"
@@ -132,9 +143,11 @@ const Home = () => {
             </div>
             <div className="col-12 col-lg-4 mb-5 speaker">
               <div className="speakers">
-                <div className="speaker-img">
-                  <img src={require("./without bg/Rohit Ghosh.png")} />
-                </div>
+                <a href="/Rohit-Ghosh">
+                  <div className="speaker-img">
+                    <img src={require("./without bg/Rohit Ghosh.png")} />
+                  </div>
+                </a>
                 <a
                   target="_blank"
                   href="https://www.linkedin.com/in/ghoshrohit"
@@ -152,16 +165,18 @@ const Home = () => {
             </div>
             <div className="col-12 col-lg-4 mb-5 speaker">
               <div className="speakers">
-                <div className="speaker-img">
-                  <img src={require("./without bg/Paramjit Jolly.png")} />
-                </div>
+                <a href="/Paramjit-Jolly">
+                  <div className="speaker-img">
+                    <img src={require("./without bg/Paramjit Jolly.png")} />
+                  </div>
+                </a>
                 <a target="_blank" href="https://www.linkedin.com/in/jolly">
                   <div className="speaker-details">
                     <div className="speaker-name">
                       <h4>Paramjit Jolly</h4>
                     </div>
-                    <div className="speaker-desg">
-                      <h6>Director Engineering, Guavus</h6>
+                    <div className="speaker-desg" style={{ marginTop: "-8px" }}>
+                      <h6>Director Engineering, Guavus a Thales Company</h6>
                     </div>
                   </div>
                 </a>
@@ -169,9 +184,11 @@ const Home = () => {
             </div>
             <div className="col-12 col-lg-4 mb-5 speaker">
               <div className="speakers">
-                <div className="speaker-img">
-                  <img src={require("./without bg/Ananya Chandra.png")} />
-                </div>
+                <a href="/Ananya-Chandra">
+                  <div className="speaker-img">
+                    <img src={require("./without bg/Ananya Chandra.png")} />
+                  </div>
+                </a>
                 <a
                   target="_blank"
                   href="https://www.linkedin.com/in/-ananyachandra"
@@ -189,9 +206,13 @@ const Home = () => {
             </div>
             <div className="col-12 col-lg-4 mb-5 speaker">
               <div className="speakers">
-                <div className="speaker-img">
-                  <img src={require("./without bg/Shashi Bhushan Kumar.png")} />
-                </div>
+                <a href="/Shashi-Bhushan">
+                  <div className="speaker-img">
+                    <img
+                      src={require("./without bg/Shashi Bhushan Kumar.png")}
+                    />
+                  </div>
+                </a>
                 <a
                   target="_blank"
                   href="https://www.linkedin.com/in/shashi-bhushan-coder"
@@ -209,9 +230,11 @@ const Home = () => {
             </div>
             <div className="col-12 col-lg-4 mb-5 speaker">
               <div className="speakers">
-                <div className="speaker-img">
-                  <img src={require("./without bg/Rashmi Phanishyaee.png")} />
-                </div>
+                <a href="/Rashmi-Phanishyaee">
+                  <div className="speaker-img">
+                    <img src={require("./without bg/Rashmi Phanishyaee.png")} />
+                  </div>
+                </a>
                 <a
                   target="_blank"
                   href="https://www.linkedin.com/in/rashmiphanishyaee/"
@@ -232,9 +255,11 @@ const Home = () => {
             </div>
             <div className="col-12 col-lg-4 mb-5 speaker">
               <div className="speakers">
-                <div className="speaker-img">
-                  <img src={require("./without bg/Anudeep Ayyagiri.png")} />
-                </div>
+                <a href="/Anudeep-Ayyagari">
+                  <div className="speaker-img">
+                    <img src={require("./without bg/Anudeep Ayyagiri.png")} />
+                  </div>
+                </a>
                 <a
                   target="_blank"
                   href="https://www.linkedin.com/in/anudeep108/"
@@ -250,12 +275,13 @@ const Home = () => {
                 </a>
               </div>
             </div>
-
             <div className="col-12 col-lg-4 mb-5 speaker">
               <div className="speakers">
-                <div className="speaker-img">
-                  <img src={require("./without bg/Dr. Arun Surendran.png")} />
-                </div>
+                <a href="/Arun-Surendran">
+                  <div className="speaker-img">
+                    <img src={require("./without bg/Dr. Arun Surendran.png")} />
+                  </div>
+                </a>
                 <a
                   target="_blank"
                   href="https://www.linkedin.com/in/arun-surendran-64510911 "
@@ -273,9 +299,11 @@ const Home = () => {
             </div>
             <div className="col-12 col-lg-4 mb-5 speaker">
               <div className="speakers">
-                <div className="speaker-img">
-                  <img src={require("./without bg/Rupesh Saxena.png")} />
-                </div>
+                <a href="/Rupesh-Saxena">
+                  <div className="speaker-img">
+                    <img src={require("./without bg/Rupesh Saxena.png")} />
+                  </div>
+                </a>
                 <a
                   target="_blank"
                   href="https://www.linkedin.com/in/rupesh-saxena-860a1854/"
@@ -311,27 +339,45 @@ const Home = () => {
               name just a few. Amass the knowledge that these Titans of
               experience and wisdom have to offer in their field, expand your
               horizons with a diverse panel of individuals. Embrace Erudition.{" "}
-              <br />
-              Pre-Book your seat at our event for free now and ensure that you
-              do not miss out on this amazing opportunity, availing goodies from
-              our sponsors in the process!
             </div>
             <div className="col-md get-passes-right">
               <div>
                 <a
-                  href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAASycIa9UNjJON0w0N0NaTldWVDlQUE5EMFlORzJIMi4u"
+                  href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAASycIa9UNFYxREkzQkxQSlpUOEtNRTFTSVY0QzE5TC4u"
                   className="pass"
                   target="_blank"
                 >
-                  Pre book your passes
+                  Register Now @ ₹49
                 </a>
               </div>
-              <div>Pre book now for early bird perks!</div>
+              <div>Register now for early bird discount!</div>
+            </div>
+          </div>
+        </div>
+        <div className="container px-4 ">
+          <div className="row" style={{ marginTop: "100px" }}>
+            <div className="col-12 text-center">
+              <h1 className="mt-5 font-weight-bold">Join Telegram</h1>
+            </div>
+            <div className="col-12 text-center mt-2">
+              Join our Telegram channel for updates
+            </div>
+            <div className="col-12 text-center join">
+              <a href="https://t.me/concepto2020" target="_blank">
+                <button className="btn mt-3 text-white">
+                  <img
+                    src="https://img.icons8.com/color/144/000000/telegram-app.png"
+                    className="mr-1"
+                    style={{ maxHeight: "38px", maxWidth: "38px" }}
+                  />{" "}
+                  Hop In!
+                </button>
+              </a>
             </div>
           </div>
         </div>
         <div className="container sponsor text-center px-4">
-          <div className="row">
+          <div className="row" style={{ marginTop: "30px" }}>
             <div className="col-12">
               <h1 className="mb-5 font-weight-bold">Sponsors</h1>
             </div>
