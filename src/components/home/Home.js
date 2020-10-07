@@ -347,10 +347,9 @@ const Home = () => {
                   className="pass"
                   target="_blank"
                 >
-                  Register Now @ ₹49
+                  Register Now For Free
                 </a>
               </div>
-              <div>Register now for early bird discount!</div>
             </div>
           </div>
         </div>

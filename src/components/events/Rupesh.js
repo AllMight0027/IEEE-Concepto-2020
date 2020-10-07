@@ -71,7 +71,7 @@ const Rupesh = () => {
             className="pass"
             target="_blank"
           >
-            Register Now @ ₹49
+            Register Now For Free
           </a>
         </div>
       </div>
