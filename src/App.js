@@ -17,6 +17,7 @@ import Rashmi from "./components/events/Rashmi";
 import Anudeep from "./components/events/Anudeep";
 import Arun from "./components/events/Arun";
 import Rupesh from "./components/events/Rupesh";
+import Sticker from "./components/stickers/Sticker";
 
 function App() {
   const [modalShowing, setModalShowing] = useState("hide");
@@ -84,6 +85,9 @@ function App() {
         </Route>
         <Route path="/Rupesh-Saxena" exact>
           <Rupesh />
+        </Route>
+        <Route path="/stickers" exact>
+          <Sticker />
         </Route>
       </Switch>
       <div

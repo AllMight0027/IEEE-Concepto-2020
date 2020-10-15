@@ -343,7 +343,7 @@ const Home = () => {
             <div className="col-md get-passes-right">
               <div>
                 <a
-                  href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAASycIa9UNFYxREkzQkxQSlpUOEtNRTFTSVY0QzE5TC4u"
+                  href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAASycIa9UMjA1NE04NVVSM1lEMk5CU1JDMk0wSVdTUy4u"
                   className="pass"
                   target="_blank"
                 >
@@ -407,6 +407,26 @@ const Home = () => {
               >
                 <img
                   src={require("./IVentors-Logo.png")}
+                  className="sponsor-lg-logo"
+                />
+              </a>
+              <a
+                href="https://www.taskade.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={require("./Taskade.png")}
+                  className="sponsor-lg-logo"
+                />
+              </a>
+              <a
+                href="https://www.interviewcake.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={require("./Interview Cake Logo.png")}
                   className="sponsor-lg-logo"
                 />
               </a>

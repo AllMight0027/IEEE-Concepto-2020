@@ -56,6 +56,11 @@ const Navbar = () => {
               Events
             </a>
           </li>
+          <li className="nav-item" id="event">
+            <a className="nav-link" href="/stickers">
+              Stickers
+            </a>
+          </li>
           <li className="nav-item">
             <a className="nav-link" href="/#faq">
               FAQs
