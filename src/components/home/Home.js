@@ -113,7 +113,7 @@ const Home = () => {
                       <h4>Pradeep Kumar</h4>
                     </div>
                     <div className="speaker-desg">
-                      <h6>IFS Officer</h6>
+                      <h6>IFS Officer and Deputy Director General at UIDAI</h6>
                     </div>
                   </div>
                 </a>
