@@ -5,7 +5,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
 const Navbar = () => {
   return (
     <nav className="navbar fixed-top navbar-expand-lg navbar-dark px-3 py-2">
-      <a className="navbar-brand" href="#">
+      <a className="navbar-brand" href="/">
         <img src="./concepto.png" alt="" />
       </a>
       <button
@@ -42,54 +42,37 @@ const Navbar = () => {
             </a>
           </li>
           <li className="nav-item">
-            <Link
-              activeClass="active"
-              className="nav-link"
-              to="about"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
+            <a className="nav-link" href="/#about">
               About
-            </Link>
+            </a>
           </li>
           <li className="nav-item">
-            <Link
-              activeClass="active"
-              className="nav-link"
-              to="speaker"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
+            <a className="nav-link" href="/#speaker">
               Speakers
-            </Link>
+            </a>
           </li>
           <li className="nav-item" id="event">
             <a className="nav-link" href="/event">
               Events
             </a>
           </li>
+          <li className="nav-item" id="event">
+            <a className="nav-link" href="/stickers">
+              Stickers
+            </a>
+          </li>
           <li className="nav-item">
-            <Link
-              activeClass="active"
-              className="nav-link"
-              to="faq"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
+            <a className="nav-link" href="/#faq">
               FAQs
-            </Link>
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="http://ieeesrmist.in/">
+              About IEEE SRM
+            </a>
           </li>
           <li className="nav-item passes">
-            <a
-              className="nav-link"
-              href="#get-passes"
-            >
+            <a className="nav-link" href="/#get-passes">
               Get your passes
             </a>
           </li>

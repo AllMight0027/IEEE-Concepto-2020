@@ -7,7 +7,6 @@ import Navbar from "../navbar/navbar";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 const Home = () => {
-  const [speaker, setSpeakers] = useState([1, 2, 3, 4, 5, 6]);
   return (
     <Router>
       <div>
@@ -25,11 +24,11 @@ const Home = () => {
               <div className="col-12 d-flex justify-content-center my-5">
                 <Timer />
               </div>
-              <div className="col-12 d-flex justify-content-center">
-                <a
-                  href="#get-passes"
-                  className="pass"
-                >
+              <div
+                className="col-12 d-flex justify-content-center"
+                id="passbtn"
+              >
+                <a href="#get-passes" className="pass">
                   Get your passes
                 </a>
               </div>
@@ -45,66 +44,395 @@ const Home = () => {
             and this principle is realized with CONCEPTO. Learn from twelve
             speakers hailing from various industries such as General Electric,
             Amazon, Google, and Morgan Stanley, to name just a few. These
-            speakers are some of the most experienced veterans in their field, a
-            diverse panel of individuals indeed because knowledge shared should
-            not be kept exclusive to a field and its people, instead of being
-            within reach of all those that wish to pursue it.
+            speakers are some of the most experienced professionals in their
+            field, a diverse panel of individuals indeed because knowledge
+            shared should not be kept exclusive to a field and its people, but
+            instead be within reach of all those who wish to pursue it.
           </p>
         </div>
         <div className="container speaker text-center px-4" id="speaker">
           <h1 className="mb-5 font-weight-bold">Speakers</h1>
           <div className="speakers-grid row py-5">
-            {speaker.map((item) => {
-              return (
-                <div className="col-12 col-lg-4 mb-5 speaker">
-                  <a href="/event">
-                    <div className="speakers">
-                      <div className="speaker-img">
-                        <img src="./speaker-ques.png" />
-                      </div>
-                      <div className="speaker-details">
-                        <div className="speaker-name">
-                          <h4>Yet to be revealed</h4>
-                        </div>
-                        <div className="speaker-desg">
-                          <h6></h6>
-                        </div>
-                      </div>
+            <div className="col-12 col-lg-4 mb-5 speaker">
+              <div className="speakers">
+                <a href="/Steven-Inouye">
+                  <div className="speaker-img">
+                    <img src={require("./without bg/Steven Inouye.png")} />
+                  </div>
+                </a>
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/steveninouye/"
+                >
+                  <div className="speaker-details">
+                    <div className="speaker-name">
+                      <h4>Steven Inouye</h4>
                     </div>
-                  </a>
-                </div>
-              );
-            })}
+                    <div className="speaker-desg">
+                      <h6>SDE, Google California</h6>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className="col-12 col-lg-4 mb-5 speaker">
+              <div className="speakers">
+                <a href="/Deepesh-Nanda">
+                  <div className="speaker-img">
+                    <img src={require("./without bg/Deepesh Nanda.png")} />
+                  </div>
+                </a>
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/kdeepeshnanda/"
+                >
+                  <div className="speaker-details">
+                    <div className="speaker-name">
+                      <h4>Deepesh Nanda</h4>
+                    </div>
+                    <div className="speaker-desg">
+                      <h6>CEO, GE Gas Power</h6>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className="col-12 col-lg-4 mb-5 speaker">
+              <div className="speakers">
+                <a href="/Pradeep-Kumar">
+                  <div className="speaker-img">
+                    <img src={require("./without bg/Pradeep Kumar.png")} />
+                  </div>
+                </a>
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/pradeep-kumar-7b136312/"
+                >
+                  <div className="speaker-details">
+                    <div className="speaker-name">
+                      <h4>Pradeep Kumar</h4>
+                    </div>
+                    <div className="speaker-desg">
+                      <h6>IFS Officer</h6>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className="col-12 col-lg-4 mb-5 speaker">
+              <div className="speakers">
+                <a href="/Dain-Walker">
+                  <div className="speaker-img">
+                    <img src={require("./without bg/dain walker.png")} />
+                  </div>
+                </a>
+                <a
+                  target="_blank"
+                  href="https://instagram.com/dainwalker?igshid=2i4075xc8pz"
+                >
+                  <div className="speaker-details">
+                    <div className="speaker-name">
+                      <h4>Dain Walker</h4>
+                    </div>
+                    <div className="speaker-desg">
+                      <h6>Founder, Victory Front</h6>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className="col-12 col-lg-4 mb-5 speaker">
+              <div className="speakers">
+                <a href="/Rohit-Ghosh">
+                  <div className="speaker-img">
+                    <img src={require("./without bg/Rohit Ghosh.png")} />
+                  </div>
+                </a>
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/ghoshrohit"
+                >
+                  <div className="speaker-details">
+                    <div className="speaker-name">
+                      <h4>Rohit Ghosh</h4>
+                    </div>
+                    <div className="speaker-desg">
+                      <h6>Founder, Qure.ai</h6>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className="col-12 col-lg-4 mb-5 speaker">
+              <div className="speakers">
+                <a href="/Paramjit-Jolly">
+                  <div className="speaker-img">
+                    <img src={require("./without bg/Paramjit Jolly.png")} />
+                  </div>
+                </a>
+                <a target="_blank" href="https://www.linkedin.com/in/jolly">
+                  <div className="speaker-details">
+                    <div className="speaker-name">
+                      <h4>Paramjit Jolly</h4>
+                    </div>
+                    <div className="speaker-desg" style={{ marginTop: "-8px" }}>
+                      <h6>Director Engineering, Guavus a Thales Company</h6>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className="col-12 col-lg-4 mb-5 speaker">
+              <div className="speakers">
+                <a href="/Ananya-Chandra">
+                  <div className="speaker-img">
+                    <img src={require("./without bg/Ananya Chandra.png")} />
+                  </div>
+                </a>
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/-ananyachandra"
+                >
+                  <div className="speaker-details">
+                    <div className="speaker-name">
+                      <h4>Ananya Chandra</h4>
+                    </div>
+                    <div className="speaker-desg">
+                      <h6>CEO, Women Prosperity Lab</h6>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className="col-12 col-lg-4 mb-5 speaker">
+              <div className="speakers">
+                <a href="/Shashi-Bhushan">
+                  <div className="speaker-img">
+                    <img
+                      src={require("./without bg/Shashi Bhushan Kumar.png")}
+                    />
+                  </div>
+                </a>
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/shashi-bhushan-coder"
+                >
+                  <div className="speaker-details">
+                    <div className="speaker-name">
+                      <h4>Shashi Bhushan </h4>
+                    </div>
+                    <div className="speaker-desg">
+                      <h6>Tech Lead, GeeksForGeeks</h6>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className="col-12 col-lg-4 mb-5 speaker">
+              <div className="speakers">
+                <a href="/Rashmi-Phanishyaee">
+                  <div className="speaker-img">
+                    <img src={require("./without bg/Rashmi Phanishyaee.png")} />
+                  </div>
+                </a>
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/rashmiphanishyaee/"
+                >
+                  <div className="speaker-details">
+                    <div
+                      className="speaker-name"
+                      style={{ marginBottom: "-8px" }}
+                    >
+                      <h4>Rashmi Phanishyaee</h4>
+                    </div>
+                    <div className="speaker-desg">
+                      <h6>Sr. Business Intelligence Associate, LinkedIn</h6>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className="col-12 col-lg-4 mb-5 speaker">
+              <div className="speakers">
+                <a href="/Anudeep-Ayyagari">
+                  <div className="speaker-img">
+                    <img src={require("./without bg/Anudeep Ayyagiri.png")} />
+                  </div>
+                </a>
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/anudeep108/"
+                >
+                  <div className="speaker-details">
+                    <div className="speaker-name">
+                      <h4>Anudeep Ayyagari</h4>
+                    </div>
+                    <div className="speaker-desg">
+                      <h6>UX Designer, Amazon</h6>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className="col-12 col-lg-4 mb-5 speaker">
+              <div className="speakers">
+                <a href="/Arun-Surendran">
+                  <div className="speaker-img">
+                    <img src={require("./without bg/Dr. Arun Surendran.png")} />
+                  </div>
+                </a>
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/arun-surendran-64510911 "
+                >
+                  <div className="speaker-details">
+                    <div className="speaker-name">
+                      <h4>Dr. Arun Surendran</h4>
+                    </div>
+                    <div className="speaker-desg">
+                      <h6>Founder Director, Adcy.io</h6>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className="col-12 col-lg-4 mb-5 speaker">
+              <div className="speakers">
+                <a href="/Rupesh-Saxena">
+                  <div className="speaker-img">
+                    <img src={require("./without bg/Rupesh Saxena.png")} />
+                  </div>
+                </a>
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/rupesh-saxena-860a1854/"
+                >
+                  <div className="speaker-details">
+                    <div
+                      className="speaker-name"
+                      style={{ marginBottom: "-5px" }}
+                    >
+                      <h4>Rupesh Saxena</h4>
+                    </div>
+                    <div className="speaker-desg">
+                      <h6>Executive Director, Morgan Stanley</h6>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
         <div className="container get-passes text-center px-4" id="get-passes">
           <h1 className="mb-5 font-weight-bold">Get your passes</h1>
           <div className="row">
             <div className="col-md text-center text-md-left">
-              Changemaker, inspire shared unit of analysis inspiring natural
-              resources. B-corp our work philanthropy shine move the needle;
-              indicators, inspirational boots on the ground benefit corporation
-              resilient do-gooder the resistance thought partnership. Relief,
-              leverage vibrant blended value ecosystem, disrupt state of play
-              co-creation indicators correlation. Resilient do-gooder, resist
-              parse, change-makers.
+              Innovation, Ideation and Creation, they are the three pillars of
+              advancement. The quest for knowledge is crucial to actualizing
+              these three pillars. To do this, knowledge should be shared. With
+              the world, with anyone and everyone who might be on the same path
+              as yourself. To make this ideology a reality, IEEE SRM SB
+              introduce to you our flagship event CONCEPTO. <br />
+              Learn from twelve brilliant speakers belonging to a diverse range
+              of fields and industries such as Google and Morgan Stanley, to
+              name just a few. Amass the knowledge that these Titans of
+              experience and wisdom have to offer in their field, expand your
+              horizons with a diverse panel of individuals. Embrace Erudition.{" "}
             </div>
             <div className="col-md get-passes-right">
               <div>
                 <a
-                  href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAASycIa9UNFYxREkzQkxQSlpUOEtNRTFTSVY0QzE5TC4u"
+                  href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAASycIa9UMjA1NE04NVVSM1lEMk5CU1JDMk0wSVdTUy4u"
                   className="pass"
                   target="_blank"
                 >
-                  Get your passes @ Rs.500
+                  Register Now For Free
                 </a>
               </div>
-              <div>Register now for early bird discount!</div>
+            </div>
+          </div>
+        </div>
+        <div className="container px-4 ">
+          <div className="row" style={{ marginTop: "100px" }}>
+            <div className="col-12 text-center">
+              <h1 className="mt-5 font-weight-bold">Join Telegram</h1>
+            </div>
+            <div className="col-12 text-center mt-2">
+              Join our Telegram channel for updates
+            </div>
+            <div className="col-12 text-center join">
+              <a href="https://t.me/concepto2020" target="_blank">
+                <button className="btn mt-3 text-white">
+                  <img
+                    src="https://img.icons8.com/color/144/000000/telegram-app.png"
+                    className="mr-1"
+                    style={{ maxHeight: "38px", maxWidth: "38px" }}
+                  />{" "}
+                  Hop In!
+                </button>
+              </a>
             </div>
           </div>
         </div>
         <div className="container sponsor text-center px-4">
-          <h1 className="mb-5 font-weight-bold">Sponsors</h1>
+          <div className="row" style={{ marginTop: "30px" }}>
+            <div className="col-12">
+              <h1 className="mb-5 font-weight-bold">Sponsors</h1>
+            </div>
+
+            <div className="col-12 mb-5">
+              <a
+                href="https://www.dennetworks.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {" "}
+                <img src={require("./DEN Logo.png")} className="sponsor-logo" />
+              </a>
+              <a
+                href="http://www.custprint.in/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={require("./logo-home.png")}
+                  className="sponsor-logo"
+                />
+              </a>
+              <a
+                href="https://iventorsinitiatives.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={require("./IVentors-Logo.png")}
+                  className="sponsor-lg-logo"
+                />
+              </a>
+              <a
+                href="https://www.taskade.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={require("./Taskade.png")}
+                  className="sponsor-lg-logo"
+                />
+              </a>
+              <a
+                href="https://www.interviewcake.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={require("./Interview Cake Logo.png")}
+                  className="sponsor-lg-logo"
+                />
+              </a>
+            </div>
+          </div>
+
           <button className="pass">
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSeRGp6GhgJdspfvYZVDLqUqyyK4kfdRVdCNTeGGVhdkGr0RwQ/viewform"
@@ -114,8 +442,8 @@ const Home = () => {
             </a>
           </button>
         </div>
-        <div className="container faq text-center px-4">
-          <h1 className="mb-5 font-weight-bold">FAQ</h1>
+        <div className="container faq text-center px-4" id="faq">
+          <h1 className="mb-5 font-weight-bold">FAQs</h1>
           <div class="accordion" id="accordionFaq">
             <div class="card">
               <div class="card-header" id="questionOne">
@@ -140,7 +468,7 @@ const Home = () => {
                 data-parent="#accordionFaq"
               >
                 <div class="card-body text-left">
-                  Applications close October 25th, 6 P.M. IST!
+                  Applications close October 25th, 12:59 P.M. IST!
                 </div>
               </div>
             </div>
@@ -281,7 +609,7 @@ const Home = () => {
                 <div class="card-body text-left">
                   The application is short and crisp, we promise! We want to
                   streamline the flow for our team. Hence, pushing out invites
-                  and coupons will be easy for us. Furthermore, it help will us
+                  and coupons will be easy for us. Furthermore, it will help us
                   to avoid ROBOTS.
                 </div>
               </div>
@@ -339,8 +667,9 @@ const Home = () => {
                 data-parent="#accordionFaq"
               >
                 <div class="card-body text-left">
-                  Please email us at ieee@srmist.edu.in and we'll get back to
-                  you ASAP!
+                  Please email us at{" "}
+                  <a href="mailto:ieee@srmist.edu.in">ieee@srmist.edu.in</a> and
+                  we'll get back to you ASAP!
                 </div>
               </div>
             </div>
