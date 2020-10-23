@@ -8,7 +8,7 @@ html {
   width: 100vw;
 }
 .col-12 img {
-  width: 100%;
+  /* width: 100%; */
 }
 
 .nav-item {
@@ -136,6 +136,11 @@ button.pass {
   transform: translate(-15%, -50%);
 }
 
+.round-white{
+  background: white;
+  border-radius: 50%;
+}
+
 .pass:hover::before {
   background-color: black;
   transition: 0.2s ease-in-out;
@@ -182,8 +187,8 @@ button.pass {
 }
 
 .sponsor-lg-logo {
-  max-height: 100px;
-  max-width: 100px;
+  max-height: 110px;
+  max-width: 150px;
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 15px;
@@ -202,6 +207,13 @@ button.pass {
   .sponsor-logo {
     max-width: 150px;
     /* margin-left: 0px; */
+  }
+}
+
+@media(max-width: 768px){
+  .sponsor-lg-logo {
+    max-height: 100px;
+    max-width: 100px;
   }
 }
 @media (max-width: 480px) {
