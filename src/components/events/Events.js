@@ -98,7 +98,10 @@ const Events = () => {
                     Engineer To Civil Servant
                   </h3>
                   <h4>-Pradeep Kumar</h4>
-                  <h6>IFS Officer</h6>
+                  <h6>
+                    IFS Officer and Deputy Director General at Unique
+                    Identification Authority of India
+                  </h6>
                   {
                     <div className="row">
                       <div className="col-12 text-right">

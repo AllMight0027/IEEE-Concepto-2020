@@ -38,19 +38,24 @@ const Pradeep = () => {
             />
           </div>
           <div className="col-12 mt-5 text-center">
+            {/* Mr. Pradeep Kumar, an IIT - BHU Varanasi graduate, is currently holding the fort of Deputy Director General at Unique Identification Authority of India and is an IFS officer in the Department of Forests, Environment and Wildlife Management, Government of Sikkim. Completing professional courses from across the globe to working for the government since 1996, he has a lot of feathers in his cap of experience.
+Register now to find your passion and ignite that spark to accomplish all that you've ever dreamt of. */}
             <b>
               <i>Mr. Pradeep Kumar</i>
             </b>{" "}
-            , an IIT - BHU Varanasi graduate, is an{" "}
+            , an IIT - BHU Varanasi graduate, is{" "}
             <b>
               <i>
-                IFS officer in the Department of Forests, Environment and
-                Wildlife Management, Government of Sikkim
+                currently holding the fort of Deputy Director General at Unique
+                Identification Authority of India and is an IFS officer in the
+                Department of Forests, Environment and Wildlife Management,
+                Government of Sikkim.
               </i>
             </b>{" "}
-            . Completing professional courses from across the globe to working
-            for the government since 1996, he has a lot of feathers in his cap
-            of experience.
+            <br />
+            Completing professional courses from across the globe to working for
+            the government since 1996, he has a lot of feathers in his cap of
+            experience.
             <br />
             Register now to find your passion and ignite that spark to
             accomplish all that you've ever dreamt of.

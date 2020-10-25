@@ -113,7 +113,7 @@ const Home = () => {
                       <h4>Pradeep Kumar</h4>
                     </div>
                     <div className="speaker-desg">
-                      <h6>IFS Officer</h6>
+                      <h6>IFS Officer and Deputy Director General at UIDAI</h6>
                     </div>
                   </div>
                 </a>
@@ -427,6 +427,46 @@ const Home = () => {
               >
                 <img
                   src={require("./Interview Cake Logo.png")}
+                  className="sponsor-lg-logo"
+                />
+              </a>
+              <a
+                href="https://www.mic.gov.in/innovation-council/iic"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={require("./IIC Logo.png")}
+                  className="sponsor-lg-logo round-white"
+                />
+              </a>
+              <a
+                href="https://www.srmiic.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={require("./SIIC LOGO Bottom.png")}
+                  className="sponsor-lg-logo round-white"
+                />
+              </a>
+              <a
+                href="http://stgregorianschool.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={require("./stgs emblem.jpg")}
+                  className="sponsor-lg-logo"
+                />
+              </a>
+              <a
+                href="https://www.airmeet.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={require("./AM_Logo_Light_WM.png")}
                   className="sponsor-lg-logo"
                 />
               </a>
