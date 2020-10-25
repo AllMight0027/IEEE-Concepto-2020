@@ -29,7 +29,7 @@ const Home = () => {
                 id="passbtn"
               >
                 <a href="#get-passes" className="pass">
-                  Get your passes
+                  Watch Live Stream
                 </a>
               </div>
             </div>
@@ -325,7 +325,7 @@ const Home = () => {
           </div>
         </div>
         <div className="container get-passes text-center px-4" id="get-passes">
-          <h1 className="mb-5 font-weight-bold">Get your passes</h1>
+          <h1 className="mb-5 font-weight-bold">Watch Live Stream</h1>
           <div className="row">
             <div className="col-md text-center text-md-left">
               Innovation, Ideation and Creation, they are the three pillars of
@@ -343,11 +343,11 @@ const Home = () => {
             <div className="col-md get-passes-right">
               <div>
                 <a
-                  href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAASycIa9UMjA1NE04NVVSM1lEMk5CU1JDMk0wSVdTUy4u"
+                  href="https://www.youtube.com/channel/UC8SMIA_C_SqXBxaO0KrkIbA"
                   className="pass"
                   target="_blank"
                 >
-                  Register Now For Free
+                  Watch Youtube Stream
                 </a>
               </div>
             </div>
@@ -398,6 +398,16 @@ const Home = () => {
                 <img
                   src={require("./logo-home.png")}
                   className="sponsor-logo"
+                />
+              </a>
+              <a
+                href="https://www.airmeet.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={require("./AM_Logo_Light_WM.png")}
+                  className="sponsor-lg-logo"
                 />
               </a>
               <a
@@ -460,27 +470,8 @@ const Home = () => {
                   className="sponsor-lg-logo"
                 />
               </a>
-              <a
-                href="https://www.airmeet.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src={require("./AM_Logo_Light_WM.png")}
-                  className="sponsor-lg-logo"
-                />
-              </a>
             </div>
           </div>
-
-          <button className="pass">
-            <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSeRGp6GhgJdspfvYZVDLqUqyyK4kfdRVdCNTeGGVhdkGr0RwQ/viewform"
-              target="_blank"
-            >
-              Become a Sponsor
-            </a>
-          </button>
         </div>
         <div className="container faq text-center px-4" id="faq">
           <h1 className="mb-5 font-weight-bold">FAQs</h1>
@@ -489,7 +480,7 @@ const Home = () => {
               <div class="card-header" id="questionOne">
                 <h2 class="mb-0">
                   <button
-                    class="btn btn-block text-left"
+                    class="btn btn-block text-left text-white"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseOne"
@@ -516,7 +507,7 @@ const Home = () => {
               <div class="card-header" id="questionTwo">
                 <h2 class="mb-0">
                   <button
-                    class="btn btn-block text-left collapsed"
+                    class="btn btn-block text-left collapsed text-white"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseTwo"
@@ -544,7 +535,7 @@ const Home = () => {
               <div class="card-header" id="questionThree">
                 <h2 class="mb-0">
                   <button
-                    class="btn btn-block text-left collapsed"
+                    class="btn btn-block text-left collapsed text-white"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseThree"
@@ -573,7 +564,7 @@ const Home = () => {
               <div class="card-header" id="questionFour">
                 <h2 class="mb-0">
                   <button
-                    class="btn btn-block text-left collapsed"
+                    class="btn btn-block text-left collapsed text-white"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseFour"
@@ -601,7 +592,7 @@ const Home = () => {
               <div class="card-header" id="questionFive">
                 <h2 class="mb-0">
                   <button
-                    class="btn btn-block text-left collapsed"
+                    class="btn btn-block text-left collapsed text-white"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseFive"
@@ -629,7 +620,7 @@ const Home = () => {
               <div class="card-header" id="questionSix">
                 <h2 class="mb-0">
                   <button
-                    class="btn btn-block text-left collapsed"
+                    class="btn btn-block text-left collapsed text-white"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseSix"
@@ -654,41 +645,11 @@ const Home = () => {
                 </div>
               </div>
             </div>
-
-            <div class="card">
-              <div class="card-header" id="questionSeven">
-                <h2 class="mb-0">
-                  <button
-                    class="btn btn-block text-left collapsed"
-                    type="button"
-                    data-toggle="collapse"
-                    data-target="#collapseSeven"
-                    aria-expanded="false"
-                    aria-controls="collapseSeven"
-                  >
-                    🤑 I am interested in sponsoring CONCEPTO, who can I reach
-                    out to?
-                  </button>
-                </h2>
-              </div>
-              <div
-                id="collapseSeven"
-                class="collapse"
-                aria-labelledby="questionSeven"
-                data-parent="#accordionFaq"
-              >
-                <div class="card-body text-left">
-                  We're so excited to hear you're interested! Please click on
-                  "Become a Sponsor" and fill out the small form. We'll get back
-                  to you ASAP.
-                </div>
-              </div>
-            </div>
             <div class="card">
               <div class="card-header" id="questionEight">
                 <h2 class="mb-0">
                   <button
-                    class="btn btn-block text-left collapsed"
+                    class="btn btn-block text-left collapsed text-white"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseEight"

@@ -63,11 +63,11 @@ Register now to find your passion and ignite that spark to accomplish all that y
         </div>
         <div className="col-12 d-flex justify-content-center mb-5">
           <a
-            href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAASycIa9UMjA1NE04NVVSM1lEMk5CU1JDMk0wSVdTUy4u"
+            href="https://www.youtube.com/channel/UC8SMIA_C_SqXBxaO0KrkIbA"
             className="pass"
             target="_blank"
           >
-            Register Now For Free
+            Watch Youtube Stream
           </a>
         </div>
       </div>

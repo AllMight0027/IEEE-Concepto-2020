@@ -73,7 +73,7 @@ const Navbar = () => {
           </li>
           <li className="nav-item passes">
             <a className="nav-link" href="/#get-passes">
-              Get your passes
+              Watch Live Stream
             </a>
           </li>
         </ul>
